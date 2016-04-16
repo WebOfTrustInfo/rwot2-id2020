@@ -1,6 +1,6 @@
 # ID 2020 Design Workshop
 
-This repository contains documents related to the Facilitated Design Workshop Event following the UN ID 2020 Summit on Digital Identity
+This repository contains documents related to the Design Workshop Event following the UN ID 2020 Summit on Digital Identity
 
 ## Design Workshop May 21rd & 22th, 2016
 
