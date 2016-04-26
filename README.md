@@ -12,3 +12,7 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 * A specific decentralized identity use case related to the topic of the UN ID 2020 Summit
 * A specific problem that you'd like to solve with a decentralized or web-of-trust solution, and why current solutions (pgp or ca-based pki) can't address the problem
 * A specific solution related to the decentralized identity or web-of-trust that you'd like others to use or contribute to
+
+The topic papers submitted are:
+
+* **[The Path to Self-Sovereign Identity](the-path-to-self-sovereign-identity.md)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
