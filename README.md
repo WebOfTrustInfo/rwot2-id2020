@@ -15,4 +15,6 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 
 The topic papers submitted are:
 
-* **[The Path to Self-Sovereign Identity](the-path-to-self-sovereign-identity.md)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
+* **[The Path to Self-Sovereign Identity](topics-and-advance-readings/the-path-to-self-sovereign-identity.md)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
+
+* **[From Identity to Refugee Status Determination](topics-and-advance-readings/identity_to_refugee_status_determination.md)** — by Susan R. Ramonat * \<SRamonat@seic.com\>*
