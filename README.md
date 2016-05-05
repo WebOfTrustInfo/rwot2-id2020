@@ -15,6 +15,7 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 
 ### 2016 - Current topic papers submitted:
 
+* [Blockstack: Design and Implementation of a Global Naming System with Blockchains](https://blockstack.org/blockstack.pdf)
 * [The Path to Self-Sovereign Identity](topics-and-advance-readings/the-path-to-self-sovereign-identity.md) — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * [From Identity to Refugee Status Determination](topics-and-advance-readings/identity_to_refugee_status_determination.md) — by Susan R. Ramonat  \<SRamonat@seic.com\>
 
@@ -27,7 +28,6 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 * [Binding Identity in a Decentralized System](topics-and-advance-readings/binding-identity-in-decentralized-system.md)
 * [Blockchain-based Trust for Software Components](topics-and-advance-readings/code-and-file-signing.adoc)
 * [Blockchain Tech Opportunities in the Web-of-Trust](topics-and-advance-readings/blockchain-opportunities.txt)
-* [Blockstack: Design and Implementation of a Global Naming System with Blockchains](https://blockstack.org/blockstack.pdf)
 * [Building a Web of Trust for E-commerce](topics-and-advance-readings/decentralized_e-commerce.md)
 * [Cool hack with XDI graphs, blockstore, link contracts, and cryptographic identifiers](topics-and-advance-readings/cool-hack-xdi-blockstore-bip32.md)
 * [Dealing with key loss in digital identity systems](topics-and-advance-readings/dealing_with_key_loss_in_digital_identity.md)
