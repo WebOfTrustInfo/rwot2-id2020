@@ -15,10 +15,12 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 
 ### 2016 - Current topic papers submitted:
 
-* [Blockstack: Design and Implementation of a Global Naming System with Blockchains](https://blockstack.org/blockstack.pdf) - by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>* and Jude Nelson *[@judecnelson](https://twitter.com/judecnelson) \<jude@blockstack.com\>* and Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@blockstack.com\>*
 * [The Path to Self-Sovereign Identity](topics-and-advance-readings/the-path-to-self-sovereign-identity.md) — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
-* [From Identity to Refugee Status Determination](topics-and-advance-readings/identity_to_refugee_status_determination.md) — by Susan R. Ramonat  \<SRamonat@seic.com\>
+* [A Self Soveregin Identity Architecture](topics-and-advance-readings/a-self-sovereign-identity-architecture.pdf) - by Manu Sporny *[@msporny](https://twitter.com/manusporny?lang=en)* and David Longley
 * [No Secure Protocol = No Sovereign Identity](topics-and-advance-readings/no-secure-protocol-equals-no-sovereign-identity.md) - by Greg Slepak *[@taoeffect](https://twitter.com/taoeffect) \<hi@okturtles.com\>*
+* [From Identity to Refugee Status Determination](topics-and-advance-readings/identity_to_refugee_status_determination.md) — by Susan R. Ramonat  \<SRamonat@seic.com\>
+* [Identity System Essentials](topics-and-advance-readings/Identity-System-Essentials.pdf) — by Samuel Smith and Dmitry Khovratovich
+* [Blockstack: Design and Implementation of a Global Naming System with Blockchains](https://blockstack.org/blockstack.pdf) - by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>* and Jude Nelson *[@judecnelson](https://twitter.com/judecnelson) \<jude@blockstack.com\>* and Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@blockstack.com\>*
 
 ### 2015 - Past topic papers submitted:
 
