@@ -22,6 +22,7 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 * [From Identity to Refugee Status Determination](topics-and-advance-readings/identity_to_refugee_status_determination.md) — by Susan R. Ramonat  \<SRamonat@seic.com\>
 * [Identity System Essentials](topics-and-advance-readings/Identity-System-Essentials.pdf) — by Samuel Smith and Dmitry Khovratovich
 * [Blockstack: Design and Implementation of a Global Naming System with Blockchains](https://blockstack.org/blockstack.pdf) - by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>* and Jude Nelson *[@judecnelson](https://twitter.com/judecnelson) \<jude@blockstack.com\>* and Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@blockstack.com\>*
+* [Questions around key management for digital ID systems](topics-and-advance-readings/questions_around_key_management.md) - by Christian Lundkvist *[@chrislundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net\>* and Rouven Heck *[@rh7](https://twitter.com/rh7) \<rouven.heck@consensys.net\>*
 
 ### 2015 - Past topic papers submitted:
 
