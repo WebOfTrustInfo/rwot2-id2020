@@ -1,6 +1,8 @@
-Decentralized Identifiers (DIDs) and Decentralized Identity Management (DIDM)
+# Decentralized Identifiers (DIDs) and Decentralized Identity Management (DIDM)
 
-A paper for the ID2020 Design ShopLes Chasen, Respect Network2016-05-16
+A paper for the ID2020 Design Shop
+Les Chasen, Respect Network
+2016-05-16
 
 In recent years, data technologies have emerged with the potential to differentiate and protect identity in ways that are similar, but superior, to those used in the physical world for millennia.  Identity in the physical world has typically been asserted via decentralized mechanisms, mainly paper; i.e., identity is managed individually with claims and attributes that are verified by third parties. Modern computing techniques have centralized this process with various registries and databases that have become repositories for unintentional exploitation. New decentralized technologies, such as blockchains, hash tables and semantic data graphs can enable the design and deployment of a decentralized identity architecture that can vastly improve security and privacy of individuals and entities in the digital world.  This will lead to users on the internet becoming individuals with sovereign rights and ownership and control over their digital selves in similar ways that we have control over our physical selves.
 
