@@ -36,15 +36,15 @@ In April 2015 the XDI.org trustees formed the XDI Registry Working Group (XRWG) 
 
 The charter of the XRWG includes [the following principles](https://docs.google.com/document/d/1i-XChGFsuAi-Id85FWXjX6hOWDn9Sq-qe7ARykJgsBI/edit#heading=h.ijm5zrz1xq4t):
 
-**Maximum interoperability. **The XDI Registry must conform to the OASIS XDI open standard for semantic data interchange and should enable any set of XDI users and communities to discover and interoperate with each other.
+**Maximum interoperability.** The XDI Registry must conform to the OASIS XDI open standard for semantic data interchange and should enable any set of XDI users and communities to discover and interoperate with each other.
 
 **Minimum viable centralization.** The XDI Registry should be designed to be as decentralized as possible.
 
-**Critical infrastructure. **The XDI Registry must provide for a high level of reliability, stability, scalability, security, sustainability and other requirements typical of critical internet infrastructure.
+**Critical infrastructure.** The XDI Registry must provide for a high level of reliability, stability, scalability, security, sustainability and other requirements typical of critical internet infrastructure.
 
 **Sovereign identity.** The XDI Registry should enable any XDI authority (person or organization) to fully administer its own registry and/or its own entry in an xdi.org-specified registry, without the need to rely on any particular external administrative authority.
 
-**Neutrality. **The XDI Registry should be available to all members of the public and should not discriminate against any party that wishes to use it for any lawful purpose.
+**Neutrality.** The XDI Registry should be available to all members of the public and should not discriminate against any party that wishes to use it for any lawful purpose.
 
 ### **Rebooting the Web of Trust Group**
 
