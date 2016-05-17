@@ -19,6 +19,8 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 * [A Self Soveregin Identity Architecture](topics-and-advance-readings/a-self-sovereign-identity-architecture.pdf) - by Manu Sporny *[@msporny](https://twitter.com/manusporny?lang=en)* and David Longley
 * [Blockstack: Design and Implementation of a Global Naming System with Blockchains](https://blockstack.org/blockstack.pdf) - by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>* and Jude Nelson *[@judecnelson](https://twitter.com/judecnelson) \<jude@blockstack.com\>* and Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@blockstack.com\>*
 * [From Identity to Refugee Status Determination](topics-and-advance-readings/identity_to_refugee_status_determination.md) — by Susan R. Ramonat  \<SRamonat@seic.com\>
+* [Sovereign Identity Namespaces](topics-and-advance-readings/SovereignIdentityNamespaces.pdf) — by Drummond Reed
+*[@DrummondReed](https://twitter.com/drummondreed?lang=en) \<drummond@respectnetwork.com\>
 * [Identity System Essentials](topics-and-advance-readings/Identity-System-Essentials.pdf) — by Samuel Smith and Dmitry Khovratovich
 * [“Immutable Me” - A Discussion Paper Exploring Data Provenance To Enable New Value Chains](topics-and-advance-readings/immutable-me.pdf) - by *George Samman [@sammantic](https://twitter.com/sammantic) \<[George.Samman@meeco.me](mailto:George.Samman@meeco.me)\>  and Katryna Dow [@katrynadow](https://twitter.com/katrynadow) \<[Katryna.Dow@meeco.me](mailto:Katryna.Dow@meeco.me)\>*
 * [No Secure Protocol = No Sovereign Identity](topics-and-advance-readings/no-secure-protocol-equals-no-sovereign-identity.md) - by Greg Slepak *[@taoeffect](https://twitter.com/taoeffect) \<hi@okturtles.com\>*
