@@ -142,7 +142,7 @@ DID lay the foundation for Decentralized Identity Management (DIDM). The DIDM la
 
 3. **DIDM claims dictionaries.** Claims dictionaries can help establish interoperability across a DIDM ecosystem, both within a protocol and potentially across protocols.
 
-4. **DIDM policy templates. **Policy templates can do for interoperability of access and authorization policies what claims dictionaries do for interoperability of claims.
+4. **DIDM policy templates.** Policy templates can do for interoperability of access and authorization policies what claims dictionaries do for interoperability of claims.
 
 A combination of DID and DIDM services more fully address information security and privacy principles. 
 
