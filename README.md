@@ -31,6 +31,7 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 * [Blockstack Rules and Support for Multiple Blockchains](topics-and-advance-readings/blockstack-rules-and-multiple-blockchains.md) — by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>
 * [Plurality of Provenance in Distributed Identity](topics-and-advance-readings/Plurality%20of%20Provenance%20in%20Distributed%20Identity.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
 * [Identity is a Phenomenon, Not a Property](topics-and-advance-readings/Identity%20is%20a%20phenomenon%20not%20a%20property.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
+* [Dex: Deterministic Predicate Expressions for Smarter Signatures](topics-and-advance-readings/DexPredicatesForSmarterSigs.md) — by Peter Todd
 
 ### 2015 - Past topic papers submitted:
 
