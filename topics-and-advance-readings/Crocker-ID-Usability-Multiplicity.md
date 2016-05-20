@@ -1,7 +1,7 @@
 ## Usability and Multiplicity in Global Identity Management
-*D. Crocker ~ dcrocker@bbiw.net
+*D. Crocker ~ dcrocker@bbiw.net*
 
-Comments for the Rebooting the Web of Trust Discussion ~ May 2016*
+*Comments for the Rebooting the Web of Trust Discussion ~ May 2016*
 
 We seek a capability that is successfully deployed and used at a global scale, for an extremely diverse population of users and operators, with no single point of control (or failure.)  Arguably there is no service today that satisfies such a set of requirements.  Although the fully decentralized packet-switching mechanisms of the Internet might be claimed as an example, the practical Internet relies at least on the Domain Name System, which very much does have a single point of control, at the top of its registration and operations hierarchies.
 
