@@ -33,80 +33,80 @@ dependability, dependableness, reliability, reliableness. the quality of being d
 
 The thesaurus has a whole list of words with with a range of meanings…I am including the whole list because it highlights the key point ….that this word means many things.…The ones at the top in bold were identified as the most common. 
 
-**decision**
-**determination**
-**faith**
-**honor**
-**integrity**
-**love**
-**loyalty**
-**principle**
-**resolution**
-**stability**
+* **decision**
+* **determination**
+* **faith**
+* **honor**
+* **integrity**
+* **love**
+* **loyalty**
+* **principle**
+* **resolution**
+* **stability**
 
-dependability
-perseverance
-steadfastness
-steadiness
-trustworthiness
-truthfulness
-adherence
-allegiance
-ardor
-attachment
-certainty
-devotedness
-devotion
-doggedness
-eagerness
-earnestness
-endurance
-fealty
-fidelity
-firmness
-honesty
-permanence
-regularity
-staunchness
-surety
-tenacity
-unchangeableness
-uniformity
-zeal
-abidingness
-unfailingness
+* dependability
+* perseverance
+* steadfastness
+* steadiness
+* trustworthiness
+* truthfulness
+* adherence
+* allegiance
+* ardor
+* attachment
+* certainty
+* devotedness
+* devotion
+* doggedness
+* eagerness
+* earnestness
+* endurance
+* fealty
+* fidelity
+* firmness
+* honesty
+* permanence
+* regularity
+* staunchness
+* surety
+* tenacity
+* unchangeableness
+* uniformity
+* zeal
+* abidingness
+* unfailingness
 
 **_Antonyms for trustiness_**
-**doubt**
-**hate**
-**lying**
-**uncertainty**
-**weakness**
-**change**
+* **doubt**
+* **hate**
+* **lying**
+* **uncertainty**
+* **weakness**
+* **change**
 
-apathy
-discrace
-dishonesty
-dishonor
-disinterest
-dislike
-disloyalty
-enmity
-hatred
-hesitation
-indecision
-indefiniteness
-indifference
-instability
-irresolution
-treachery
-unsteadiness
-vacillation
-wavering
-changeableness
-fluctuation
-inconstancy
-irregularity
+* apathy
+* discrace
+* dishonesty
+* dishonor
+* disinterest
+* dislike
+* disloyalty
+* enmity
+* hatred
+* hesitation
+* indecision
+* indefiniteness
+* indifference
+* instability
+* irresolution
+* treachery
+* unsteadiness
+* vacillation
+* wavering
+* changeableness
+* fluctuation
+* inconstancy
+* irregularity
 
 it is essential that the type of quality of trust we want or are aiming for in these systems is discussed explicitly and that we not overburden the word with “all” of its meanings.  If we start to unpack its meanings then we may conclude that we can not actually use the word. 
 
