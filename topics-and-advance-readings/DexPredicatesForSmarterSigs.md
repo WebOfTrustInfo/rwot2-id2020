@@ -1,6 +1,8 @@
 # Dex: Deterministic Predicate Expressions for Smarter Signatures
 
-#### *by Peter Todd, with financial support from Christopher Allen/Alacrity*
+*©2016 Peter Todd, with contributions from Christopher Allen.  
+Commissioned by Christopher Allen of Alacrity Software to further work on
+[Smart Signatures](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf).*
 
 While substantial effort has gone into PKI, WoT, "blockchain", and other
 schemes to better map human identities meaningful identities to public keys,
