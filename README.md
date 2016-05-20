@@ -34,6 +34,9 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 * [Dex: Deterministic Predicate Expressions for Smarter Signatures](topics-and-advance-readings/DexPredicatesForSmarterSigs.md) — by Peter Todd
 * [Scaling a BFT Consensus Protocol for Identity](topics-and-advance-readings/scaling-a-bft-consensus-protocol-for-identity.md) — by Jason Law & Lovesh Harchandani
 * [XDI Graphs in IPFS](topics-and-advance-readings/XDI-Graphs-in-IPFS.md) — by Markus Sabadello
+* [Replace Blockchain with DLT (Distributed Ledger Technology)](topics-and-advance-readings/Erik Anderson-USE CASE story.md) — by Erik Anderson
+* [Blockchain For Capital Markets](topics-and-advance-readings/Blockchain_for_capital_markets.pdf) — by Erik Anderson
+* [Identity Management IdSec](topics-and-advance-readings/PM_15_026_FIN2_IdSEC_160513.pdf) — by Erik Anderson
 
 ### 2015 - Past topic papers submitted:
 
