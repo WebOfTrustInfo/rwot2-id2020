@@ -33,6 +33,7 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 * [Identity is a Phenomenon, Not a Property](topics-and-advance-readings/Identity%20is%20a%20Phenomenon%20Not%20a%20Property.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
 * [Dex: Deterministic Predicate Expressions for Smarter Signatures](topics-and-advance-readings/DexPredicatesForSmarterSigs.md) — by Peter Todd
 * [Scaling a BFT Consensus Protocol for Identity](topics-and-advance-readings/scaling-a-bft-consensus-protocol-for-identity.md) — by Jason Law & Lovesh Harchandani
+* [XDI Graphs in IPFS](topics-and-advance-readings/XDI-Graphs-in-IPFS.md) — by Markus Sabadello
 
 ### 2015 - Past topic papers submitted:
 
