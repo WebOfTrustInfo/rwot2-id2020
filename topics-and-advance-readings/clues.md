@@ -12,7 +12,7 @@ Note, this is an informal list of clues I have collected on content-addressable 
 
 This first section is about clues towards a content-addressable web and is product of conversations with Juan Benet, Steven Allen, David Clark and Gerry Sussman
 
-> 1. The way we point to things should not be bound to a location
+> 1 The way we point to things should not be bound to a location
 
 The architecture of the web today forces us to use `URL`s when pointing to things. This implicitly forces us to only look in one particular place for one specific resource. The `L` at the end stands for `L`ocation, more specifically, one particular DNS name and the set of locations specified by its owner. Outside of the web, when we point to things, we use the name of the objects instead of the place where we can find it.
 
@@ -20,12 +20,12 @@ Consider buying a book and knowing that its name is `library1.com/book-12345` in
 
 If we can assign different names to distinct resources that everyone could agree upon (e.g. for example hash functions applied to its content) then, it doesn't matter where the content, since it could be on multiple locations. Having one singular location is a single point of failure, since that location could disappear, be censored and alterated.
 
-> 2. Owners should not be the sole distributors of content.
+> 2 Owners should not be the sole distributors of content.
 
 It is clear that in a decentralized web content can be distributed by whoever can prove they have the right content.
 In the case of hashes, users will check if the hash of the content received is the same as the one they asked for.
 
-> 3. The problem of naming things and the problem of finding things should be separate problems.
+> 3 The problem of naming things and the problem of finding things should be separate problems.
 
 There are multiple ways to find something we know the name of. Keeping these problem separate make us distinguish two important ortoghonal layers, __naming__ and __discovery__.
 
@@ -43,7 +43,7 @@ Having names that are not bound to a location, means that we could get the conte
 
 These are smaller networks that that I call __"little webs"__.
 
-> 4. One should not need to be connected to a global network to retrieve local content
+> 4 One should not need to be connected to a global network to retrieve local content
 
 If all the hashes that are used in a graph of resources pointing to each others can be found in the network, this network is a "little web". By definition a global DHT is a "little web".
 
@@ -51,7 +51,7 @@ If we are in a local network and we create and distribute content with each othe
 
 There are plenty of other "little webs", in which using hashes to point to things is either already happening or could be applied to. In blockchains we could point to previous transactions, or contracts by using hashes and these can be resolved just from having the chain (if a hash point to a previous transaction, we know the hash of that transaction since it is in the log). A `git` repository it itself a self-contained "little web".
 
-> 5. Hence the global network could be partitioned.
+> 5 Hence the global network could be partitioned.
 
 One does not need to be connected to the main web. As long as hashes can be resolved in any "little web". This would not be possible with the HTTP-web.
 
@@ -59,7 +59,7 @@ One does not need to be connected to the main web. As long as hashes can be reso
 
 This is a reminder that hashes are not secrets
 
-> 6. If there exist one peer willing to serve a hash, all the network has access to the content it points to.
+> 6 If there exist one peer willing to serve a hash, all the network has access to the content it points to.
 
 Using hashes to point to content, makes our pointers predictable. While the resolution of a URL can stand behind access control enforced by the server, hashes can't. The URL http://nicola.com/personal/things may not be resolved, while if there exist one peer that is willing to serve the content behind `hashPersonalThingsOfNicolaXYZYZYZYZY..`, then all the network can have access to it.
 
@@ -72,7 +72,7 @@ Here are different solutions I propose we could build interesting scheme for:
 
 ## Solving cycles
 
-> 7. Things should be able to point to each other
+> 7 Things should be able to point to each other
 
 One can't hash two resources that point to each other using hashes.
 
@@ -106,7 +106,7 @@ I will not repeat the work done by [IPLD](https://github.com/ipfs/specs/tree/mas
 In this section, I will just point out to conversations that have plenty of clues on how such path scheme should look like.
 The work done is around [IPLD](https://github.com/ipfs/specs/tree/master/ipld) and my initial generalized version of [cross data-paths](https://github.com/nicola/cross-data-paths) and the [final agreement](https://github.com/ipfs/specs/issues/97). There is definitely something to learn from this effort.
 
-> 8. Path scheme should allow to describe the lower level and the higher level representation
+> 8 Path scheme should allow to describe the lower level and the higher level representation
 
 This is the important challenge of providing a way to point to the low level and the high level representation of data.
 The following link is a submission by itself: [Separating high-level from low level representation](https://github.com/ipfs/specs/issues/91)
@@ -117,28 +117,28 @@ The following link is a submission by itself: [Separating high-level from low le
 
 The following set of clues are from my draft on the [decentralized user security model](https://github.com/nicola/decentralized-user-security-model). In other words, clues on how decentralized application should interface with the user data.
 
-> 9. (least privilege) Nothing is allowed, unless permitted
+> 1. (least privilege) Nothing is allowed, unless permitted
 
 
-> 10. (user confirmation) Permissions are granted only after the user confirms
+> 2. (user confirmation) Permissions are granted only after the user confirms
 
 
-> 11. (explicit authentication) Identity is never exposed, unless permitted
+> 3. (explicit authentication) Identity is never exposed, unless permitted
 
 
-> 12. (explicit authorization) Data is always private by default, no one has access to it or parts of it, unless permitted
+> 4. (explicit authorization) Data is always private by default, no one has access to it or parts of it, unless permitted
 
 
-> 13. (explicit delegation) No one can impersonate the user and operate in their behalf, unless permitted
+> 5. (explicit delegation) No one can impersonate the user and operate in their behalf, unless permitted
 
 
-> 14. (encryption by default) Any intermediary, the host of the data or the network provider, if any, have no access to any data, unless permitted
+> 6. (encryption by default) Any intermediary, the host of the data or the network provider, if any, have no access to any data, unless permitted
 
 
-> 15. (confidentiality by default) Shared data is only accessible by the parties involved
+> 7. (confidentiality by default) Shared data is only accessible by the parties involved
 
 
-> 16. (integrity by default) Users must know if their data has been altered
+> 8. (integrity by default) Users must know if their data has been altered
 
 [Note for the event: these are points that I would like to discuss and confront to the Self-sovereign identity model]
 
