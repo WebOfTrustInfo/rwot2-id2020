@@ -66,7 +66,7 @@ Adoption will be driven by commercial adoption.
 4. There will be dynamic webs of trust, which may help us find people with same attibutes.
 5. Post offices will play a pivotal role. (Or maybe can do through reputation, not gov't.)
 
-** GROUP 6**
+**GROUP 6**
 
 Hope to have definition of use cases
 And what identity is
@@ -85,7 +85,7 @@ Need a user-centric system
 
 Need a context-specific identity system
 
-** GROUP 7 **
+**GROUP 7**
 
 Identities is a process, not a data structure
 - Different needs for different situations
