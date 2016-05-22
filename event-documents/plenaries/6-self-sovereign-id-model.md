@@ -26,3 +26,17 @@ This is a _controversial_ part of the model.
 
 See [the full paper](https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/a-self-sovereign-identity-architecture.pdf)
 
+**Possible Topics Coming Out of This**
+
+- Terminology
+- Recovery + Rotation
+- Revocation
+- Consent + Privacy + Visibility
+- Public Ledger Reposition
+- DIDs + Ledgers
+- Containers
+- Flows
+- Use Cases
+
+
+- 
