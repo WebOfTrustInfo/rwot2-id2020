@@ -93,3 +93,14 @@ As opposed to DID log as a whole
 (It's an open architectural question)
 
 [will do paper + specs]
+
+**Uses Cases for Nairobi** [Lead Editor: Wayne Hennesy]
+
+Problems in Nairobi
+
+[2 page paper done]
+
+Other Stuff That Will Be Papers
+**HD Keys** [Lead Editor: Kiara]
+**DID Use Cases** [Lead Editor: Joe, Jonathan]
+Revise **Smart Signatures** [Lead Editor: Chris, Ryan]
