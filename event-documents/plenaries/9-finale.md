@@ -15,6 +15,7 @@ July 12: RiscV (Toronto)
 Summer: IETF (Berlin)
 Fall: IETF (Chicago)
 
+August: Identity Maps
 August: MyData16 (Finland)
 August: Vote for SS-I Architecture Ends
 
@@ -26,6 +27,6 @@ _PGP 25th Anniversay_
 
 **Please Fill Out These Forms**
 
-[Next September Event Date Vote](http://bit.ly.1TsEuNr)
-[Designshop Feedback](http://bit.ly/1qD0uNr)
-[Rsepect Network on the Topic of Digital Identity](http://svy.mk/20ne6ZA)
+- [Next September Event Date Vote](http://bit.ly.1TsEuNr)
+- [Designshop Feedback](http://bit.ly/1qD0uNr)
+- [Respect Network on the Topic of Digital Identity](http://svy.mk/20ne6ZA)
