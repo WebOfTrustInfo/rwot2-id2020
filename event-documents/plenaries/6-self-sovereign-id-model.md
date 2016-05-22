@@ -11,7 +11,8 @@ The only person who interacts with Repository (for now) is the Holder!
 
 **The Tech**
 
-*DID Registry.* Decentralized Identifier. Issuer, Holder, and Inspector work with it to issue and verify DID
+*DID Registry.* Allocates identifiers. An assignment authority to ensure uniqueness.
+Issuer, Holder, and Inspector work with it to issue and verify DID. (DID = Decentralized Identifier.)
 
 *Public Ledgers.* Some credentials may be issued into public ledgers. For example, information ona  debarred doctor.
 This is a _controversial_ part of the model.
