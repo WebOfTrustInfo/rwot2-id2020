@@ -34,4 +34,4 @@ _Agent_ is who currently has "control" of the master copy of the document, and i
 
 _Link_ is where to find the paper when it's finished
 
-Sorry if any of this is overly bureaucratic. If any of the process doesn't work for you, just let me know. It was tough work getting all the papers finished last time, and I'm trying to streamline and organize that! But, my goal is also to make things easy for you and help you produce the paper that you envision! -Shannon (shannona@skotos.net)
+Sorry if any of this is overly bureaucratic. If any of the process doesn't work for you, just let me know. It was tough work getting all the papers finished last time, and I'm trying to streamline and organize that! But, my goal is also to make things easy for you and to help you produce the paper (or spec) that you envision! -Shannon (shannona@skotos.net)
