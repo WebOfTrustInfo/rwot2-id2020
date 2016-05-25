@@ -2,15 +2,15 @@ This is a current list of white papers and specs that are expected to come out o
 
 Paper | Lead | Status | Agent | Link
 --- | --- | --- | --- | ---
-Chainpoint / Proof-of-X | Wayne T. | Drafting | Authors | -
-Cheap Verification | Greg S. | Drafting | Authors | -
-DID | Drummond  Drafting | Authors | -
-HD Keys | Kiara | Drafting | Authors | -
-Identity as Correlation | Adrian | Drafting | Authors | -
-Identity Containers & Relations in DID | Adrian | Drafting | Authors | -
-Identity Graphs | Markus | Drafting | Authors | -
-Self-Sovereign Identity Architecture Updates | Dave C. | Drafting | Authors | -
-Use Cases for Nairobi | Wayne H. | Drafting  Authors | -
+**Chainpoint / Proof-of-X** | Wayne T. | Drafting | Authors | -
+**Cheap Verification** | Greg S. | Drafting | Authors | -
+**DID** | Drummond  Drafting | Authors | -
+**HD Keys** | Kiara | Drafting | Authors | -
+**Identity as Correlation** | Adrian | Drafting | Authors | -
+**Identity Containers & Relations in DID** | Adrian | Drafting | Authors | -
+**Identity Graphs** | Markus | Drafting | Authors | -
+**Self-Sovereign Identity Architecture Updates** | Dave C. | Drafting | Authors | -
+**Use Cases for Nairobi** | Wayne H. | Drafting | Authors | -
 
 
 Once you have proceeded through initial drafts, please lock any versions of your document in Google docs or elsewhere, and load your first draft here, to this Github folder, preferably as a MD document. From there, all continuing work should be done with the Github document as the master copy.
