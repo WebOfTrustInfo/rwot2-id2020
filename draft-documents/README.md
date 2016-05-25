@@ -6,7 +6,7 @@ Paper | Lead | Status | Agent | Link
 ***Cheap Verification*** | Greg S. | Drafting | Authors | -
 ***DID*** | Drummond | Drafting | Authors | -
 ***HD Keys*** | Kiara | Drafting | Authors | -
-***Identity as Correlation*** | Adrian | Drafting | Authors | -
+***Identity as Correlation*** | Joe A. | Drafting | Authors | -
 ***Identity Containers & Relations in DID*** | Adrian | Drafting | Authors | -
 ***Identity Graphs*** | Markus | Drafting | Authors | -
 ***Self-Sovereign Identity Architecture Updates*** | Dave C. | Drafting | Authors | -
