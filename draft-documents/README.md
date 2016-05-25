@@ -4,7 +4,7 @@ Paper | Lead | Status | Agent | Link
 --- | --- | --- | --- | ---
 **Chainpoint / Proof-of-X** | Wayne T. | Drafting | Authors | -
 **Cheap Verification** | Greg S. | Drafting | Authors | -
-**DID** | Drummond  Drafting | Authors | -
+**DID** | Drummond | Drafting | Authors | -
 **HD Keys** | Kiara | Drafting | Authors | -
 **Identity as Correlation** | Adrian | Drafting | Authors | -
 **Identity Containers & Relations in DID** | Adrian | Drafting | Authors | -
