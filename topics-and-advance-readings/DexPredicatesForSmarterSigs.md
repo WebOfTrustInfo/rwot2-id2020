@@ -33,7 +33,7 @@ consensus-critical Bitcoin protocol and Bitcoin Core codebase.
 Before we go directly into how expressions are evaluated, it's important to
 remember *why* they're evaluated: we're trying to prove what the expression
 evaluates to efficiently. In short, Alice is trying to prove to Bob that
-expression <foo> returns <bar>. Bob wants to be able to evaluate that proof
+expression \<foo\> returns \<bar\>. Bob wants to be able to evaluate that proof
 efficiently with as little bandwidth, memory, and CPU as possible; he does not
 care how much work Alice had to do to create that proof. This is completely
 unlike standard programming languages, which usually have efficiency of
