@@ -3,7 +3,7 @@ This is a current list of white papers and specs that are expected to come out o
 Paper | Lead | Status | Agent | Link | Notes
 --- | --- | --- | --- | --- | ---
 ***Chainpoint / Proof-of-X*** | Wayne T. | Drafting | Authors | - 
-***Cheap Verification*** | Greg S. | Drafting | Authors | -
+***Cheap Verification*** | Greg S. | Drafting | Authors | - | Pending: 5/25/16
 ***DID*** | Drummond | Drafting | Authors | - | Slack Discussions
 ***HD Keys*** | Kiara | Drafting | Authors | -
 ***Identity as Correlation*** | Joe A. | Drafting | Authors | - | Call: 5/31/16
