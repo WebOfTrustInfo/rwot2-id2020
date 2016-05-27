@@ -2,7 +2,7 @@ This is a current list of white papers and specs that are expected to come out o
 
 Paper | Lead | Status | Agent | Link | Notes
 --- | --- | --- | --- | --- | ---
-***Chainpoint / Proof-of-X*** | Wayne V. | Drafting | Authors | - 
+***Chainpoint / Proof-of-X*** | Wayne V. | Drafting | Authors | Too Late for Paper? 
 ***Cheap Verification*** | Greg S. | Drafting | Authors | - | Pending: 5/25/16
 ***DID*** | Drummond | Drafting | Authors | - | Slack Discussions
 ***HD Keys*** | Kiara | Drafting | Authors | -
