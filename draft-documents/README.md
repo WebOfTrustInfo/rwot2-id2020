@@ -1,16 +1,16 @@
 This is a current list of white papers and specs that are expected to come out of the conference. If there are any mistakes, any changes, or any additions (or subtractions), please edit this table and notify Shannon: shannona@skotos.net
 
-Paper | Lead | Status | Agent | Link | Notes
---- | --- | --- | --- | --- | ---
-***Chainpoint / Proof-of-X*** | Wayne V. | Drafting | Authors | - | Too Late for RWoT?
-***Cheap Verification*** | Greg S. | Drafting | Authors | - | Pending: 5/25/16
-***DID*** | Drummond | Drafting | Authors | - | Slack Discussions
-***HD Keys*** | Kiara | Drafting | Authors | -
-***Identity as Correlation*** | Joe A. | Drafting | Authors | - | Call: 5/31/16
-***Identity Containers & Relations in DID*** | Adrian | Drafting | Authors | -
-***Identity Graphs*** | Markus | Drafting | Authors | -
-***Self-Sovereign Identity Architecture Updates*** | Dave C. | Drafting | Authors | -
-***Use Cases for Nairobi*** | Wayne H. | Drafting | Authors | -
+|                        Paper                        |   Lead   |    Status   |  Agent  |                            Link                           |       Notes        |
+|-----------------------------------------------------|----------|-------------|---------|-----------------------------------------------------------|--------------------|
+| ***Chainpoint / Proof-of-X***                       | Wayne V. | Drafting    | Authors | -                                                         | Too Late for RWoT? |
+| ***The Insecurity of Charging for Authentication*** | Greg S.  | First Draft | Authors | [link](The Insecurity of Charging for Authentication.pdf) |                    |
+| ***DID***                                           | Drummond | Drafting    | Authors | -                                                         | Slack Discussions  |
+| ***HD Keys***                                       | Kiara    | Drafting    | Authors | -                                                         |                    |
+| ***Identity as Correlation***                       | Joe A.   | Drafting    | Authors | -                                                         | Call: 5/31/16      |
+| ***Identity Containers & Relations in DID***        | Adrian   | Drafting    | Authors | -                                                         |                    |
+| ***Identity Graphs***                               | Markus   | Drafting    | Authors | -                                                         |                    |
+| ***Self-Sovereign Identity Architecture Updates***  | Dave C.  | Drafting    | Authors | -                                                         |                    |
+| ***Use Cases for Nairobi***                         | Wayne H. | Drafting    | Authors | -                                                         |                    |
 
 Once you have proceeded through initial drafts, please lock any versions of your document in Google docs or elsewhere, and transfer your first draft here, to this Github folder, preferably as a MD document. (If you're unable to do so, an alternative is to contact Shannon with your final Doc, and he can get it transferred into MD.) From there, all continuing work should be done with the Github document as the master copy.
 
