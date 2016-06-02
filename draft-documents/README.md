@@ -10,7 +10,7 @@ This is a current list of white papers and specs that are expected to come out o
 | ***Identity Containers & Relations in DID***        | Adrian   | Drafting    | Authors | -                                                         |  Commenting                  |
 | ***Identity Graphs***                               | Markus   | Drafting    | Authors | -                                                         |                    |
 | ***Self-Sovereign Identity Architecture Updates***  | Dave C.  | Drafting    | Authors | -                                                         |                    |
-| ***Use Cases for Nairobi***                         | Wayne H. | Drafting    | Authors | -                                                         | Pending |
+| ***Use Cases for Nairobi***                         | Wayne H. | First Draft    | Editor | -                                                         |  |
 
 Once you have proceeded through initial drafts, please lock any versions of your document in Google docs or elsewhere, and transfer your first draft here, to this Github folder, preferably as a MD document. (If you're unable to do so, an alternative is to contact Shannon with your final Doc, and he can get it transferred into MD.) From there, all continuing work should be done with the Github document as the master copy.
 
