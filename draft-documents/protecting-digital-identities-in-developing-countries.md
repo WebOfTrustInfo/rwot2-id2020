@@ -1,6 +1,6 @@
 **Use Case: Protecting Digital Identities in Developing Countries**
 
-v1.2 May 31, 2016
+v1.3 June 3, 2016
 
 **Abstract**
 
@@ -10,13 +10,15 @@ People in many parts of the developing world have little or no infrastructure fo
 
 Large parts of Sub-Saharan Africa and other frontier markets are characterized by immature or dysfunctional national governance.  Physical infrastructure is crumbling and public services are substandard or non-existent. In many places predatory and corrupt public officials abuse their authority and augment their salaries by extracting payments from the public.  
 
-Political power and discourse are frequently divided by ethnic and tribal lines, rather than by ideology. This perpetuates divisive identity-driven grievance politics, clan-based thinking and short-termist behaviour to fund patronage networks.
+Political power and discourse are frequently apporptioned on ethnic and tribal lines, rather than by ideology. This perpetuates divisive identity-driven grievance politics, clan-based thinking and short-termist behaviour to fund patronage networks.
 
 Despite this, mobile phone ownership and coverage is widespread. Well-developed telecom and internet penetration sits alongside the decaying commons.
 
 **Persona**
 
-The informal economy, where self-employed workers operate outside regular salaried employment, greatly outstrips the formal sector, comprising over 65% of employment in many African countries. These informal workers by definition are ‘off the grid’. In the absence of a functioning social contract they lack incentives to register their businesses or to pay taxes. Women are often the primary breadwinners despite conservative and patriarchal social structures. Individuals are aspirational, hard working and resilient; they want a better future for themselves and their families. 
+The informal economy, where self-employed workers operate outside regular salaried employment, greatly outstrips the formal sector, comprising over 65% of employment in many African countries. These informal workers by definition are ‘off the grid’. In the absence of a functioning social contract they lack incentives to register their businesses or to pay taxes. 
+
+Women are often the primary breadwinners despite conservative and patriarchal social structures. Individuals are aspirational, hard working and resilient; they want a better future for themselves and their families. 
 
 While citizens receive a national identity number in many places, this does not equate to representation or to access to public services, as these functions often do not exist.
 
@@ -26,15 +28,15 @@ Threats to the individual can be categorized into three broad themes:
 
 -   **Thieves** seek to enrich themselves by the appropriation of monies and properties from their victims. Corrupt officials and service providers such as bankers or retailers fall into this category. Identity theft is an increasing vector for scammers, criminal gangs and individuals.
 
--   **Murderers** seek to harm or physically remove or displace their victims. They can be motivated by ethnic rivalry, terrorist ideology or political purpose to acquire power or retain control of it.
+-   **Murderers** seek to harm or physically remove or displace their victims. They can be motivated by ethnic rivalry, terrorist ideology or the political desire to acquire power or retain control of it.
 
 -   **Oppressors** seek to exercise local power by exploiting comparative advantage to the disadvantage of others. Leverage may come through population size, access to resources or control of power such as political, police or military appointments. They ruthlessly suppress opposition to their dominance, often through the means above. Their objective is limited to maintaining hegemony.
 
-All groups seek to identify their victims, assess their economic or symbolic value, confirm their location and access their data in order to extract the greatest possible value relative to their purpose.
+All groups seek to identify their victims, assess their economic or symbolic value, confirm their location and access their data, in order to extract the greatest possible value relative to their purpose.
 
 **Problem/Opportunities**
 
-Individuals lack the ways and means to safely and reliably store their important personal data. Where government-issued IDs exist, they often bear little relation to the access and provision of adequate products and services. When individuals’ data is illegitimately acquired and abused people become highly vulnerable to fraud, theft and compromised personal or family safety.
+Individuals lack the ways and means to safely and reliably store their important personal data. Where government-issued IDs exist, they often bear little relation to the access and provision of adequate products and services. When individuals’ data is illegitimately acquired and abused, they become highly vulnerable to fraud, theft and compromised personal or family safety.
 
 Developers and administrators of any system must operate on the assumption that all official systems are inherently vulnerable. Therefore, the digital identity system must complement and augment existing national identity systems, providing additional assurance, rather than undermining or supplanting national government sovereignty. A reliable, trusted identity will enable the provision of key services in the following ways:
 
@@ -50,7 +52,7 @@ Developers and administrators of any system must operate on the assumption that 
 
 **Self Sovereignty & Security**
 
-The concepts of self-sovereignty and security are fundamental to the utility and adoption of a digital identity system. The private individual must be the owner and steward of their personal data, independent of any issuing or approving authority. They must have right of control over which information is released in exchange for access to services and which information they choose not to disclose. While the individual retains full agency over disclosure, this data must be validated by accredited third parties (such as governments, academic institutions or credit agencies) where it is appropriate and necessary. The highest forms of system authentication, data integrity and confidentiality are required for this paradigm to function.
+The concepts of self-sovereignty and security are fundamental to the utility and adoption of a digital identity system. The private individual must be the owner and steward of their personal data, independent of any issuing or approving authority. They must have right of control over which information is released in exchange for access to services and which information they choose not to disclose. While the individual retains full agency over disclosure, this data must be validated by accredited third parties (such as governments, academic institutions or credit agencies) when it is appropriate and necessary. The highest forms of system authentication, data integrity and confidentiality are required for this paradigm to function.
 
 **Adoption & Scaling**
 
@@ -60,7 +62,7 @@ Creation of a workable digital identity system will require collaboration betwee
 
 **Conclusion & Call to Action**
 
-The central thesis, as well characteristics and possible system architectures, has been described in [*other works*](https://github.com/WebOfTrustInfo/ID2020DesignWorkshop). The benefits of a digital identity system extend beyond the theoretical, and have the potential to fundamentally improve basic conditions for *billions* of people. This paper calls for the applied effort of the development community to find ways to deliver an independent digital identity system to the developing world where the need is most pressing.
+The central thesis, as well as characteristics and possible system architectures, has been described in [*other works*](https://github.com/WebOfTrustInfo/ID2020DesignWorkshop). The benefits of a digital identity system extend beyond the theoretical, and have the potential to fundamentally improve basic conditions for *billions* of people. This paper calls for the applied effort of the development community to find ways to deliver an independent digital identity system to the developing world where the need is most pressing.
 
 **Author:** Wayne Hennessy-Barrett
 
