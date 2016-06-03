@@ -2,7 +2,7 @@
 
 This repository contains documents related to the Design Workshop Event following the UN ID 2020 Summit on identity
 
-## Design Workshop May 21rd & 22th, 2016
+## DesignShop May 21rd & 22th, 2016
 
 The DesignShop event, to be held in the New York on May 21rd & 22th 2015.The event focuses on creating the next generation of decentralized web-of-trust based identity systems. The goal of this initial DesignShop is to generate 5 technical white papers and/or proposals on topics decided by the group that will have the greatest impact on the future.
 
