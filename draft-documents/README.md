@@ -8,7 +8,7 @@ This is a current list of white papers and specs that are expected to come out o
 | ***HD Keys***                                       | Kiara    | Drafting    | Authors | -                                                         |                    |
 | ***Identity as Correlation***                       | Joe A.   | Drafting    | Authors | -                                                         | End of Month?     |
 | ***Identity Containers & Relations in DID***        | Adrian   | Drafting    | Authors | -                                                         |  Commenting                  |
-| ***Identity Graphs***                               | Markus   | Drafting    | Authors | -                                                         |                    |
+| ***Identity Graphs***                               | Markus   | Drafting    | Authors | -                                                         | Update: 6/10 |
 | ***Protecting Digital Identity in Developing Countries***                         | Wayne H. | Edited Draft    | Author | [link](protecting-digital-identities-in-developing-countries.md)                                                         |  |
 | ***Self-Sovereign Identity Architecture Updates***  | Dave C.  | Drafting    | Authors | -                                                         |                    |
 
