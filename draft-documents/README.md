@@ -3,7 +3,7 @@ This is a current list of white papers and specs that are expected to come out o
 |                        Paper                        |   Lead   |    Status   |  Agent  |                            Link                           |       Notes        |
 |-----------------------------------------------------|----------|-------------|---------|-----------------------------------------------------------|--------------------|
 | ***Chainpoint / Proof-of-X***                       | Wayne V. | Drafting    | Authors | -                                                         | Release: 6/29-6/30 |
-| ***The Insecurity of Charging for Authentication*** | Greg S.  | First Draft | Editor | [link](The Insecurity of Charging for Authentication.pdf) |                    |
+| ***The Insecurity of Charging for Authentication*** | Greg S.  | Edited Draft | Editor | [link](The Insecurity of Charging for Authentication.pdf) |                    |
 | ***DID***                                           | Drummond | Drafting    | Authors | -                                                         | Slack Discussions  |
 | ***HD Keys***                                       | Kiara    | Drafting    | Authors | -                                                         |                    |
 | ***Identity as Correlation***                       | Joe A.   | Drafting    | Authors | -                                                         | End of Month?     |
