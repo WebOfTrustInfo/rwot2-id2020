@@ -10,9 +10,9 @@ People in many parts of the developing world have little or no infrastructure fo
 
 Large parts of Sub-Saharan Africa and other frontier markets are characterized by immature or dysfunctional national governance.  Physical infrastructure is crumbling and public services are substandard or non-existent. In many places predatory and corrupt public officials abuse their authority and augment their salaries by extracting payments from the public.  
 
-Political power and discourse are frequently apporptioned on ethnic and tribal lines, rather than by ideology. This perpetuates divisive identity-driven grievance politics, clan-based thinking and short-termist behaviour to fund patronage networks.
+Political power and discourse are frequently apportioned on ethnic and tribal lines, rather than by ideology. This perpetuates divisive identity-driven grievance politics, clan-based thinking and short-termist behaviour to fund patronage networks.
 
-Despite this, mobile phone ownership and coverage is widespread. Well-developed telecom and internet penetration sits alongside the decaying commons.
+"Despite this, mobile phone ownership and coverage is widespread. Well-developed telecom and internet penetration sits alongside erratic public services and transport networks.
 
 **Persona**
 
