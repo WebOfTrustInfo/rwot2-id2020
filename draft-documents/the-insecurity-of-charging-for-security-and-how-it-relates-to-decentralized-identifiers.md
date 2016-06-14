@@ -10,15 +10,15 @@ This is a totally incorrect misconception.
 
 It is on the basis of this misconception about the cost of authentication that Certificate Authorities were able to maintain and expand their business of selling people insecurity at high cost, sometimes charging upwards of $300 or more per year in order to get websites to display a shiny lock icon.
 
-Today, thanks to projects like Let's Encrypt, many people know that they can get this same lock for their web site for $0.
+Today, thanks to projects like Let's Encrypt, many people know that they can get this same lock in their web browser for $0.
 
 Did anything fundamentally change during the years that we did not have Let's Encrypt? Did Let's Encrypt invent anything fundamentally new that did not exist before? The answer to these questions is a resounding __NO.__
 
 The only thing that Let's Encrypt managed to accomplish was a change in the politics of internet security.
 
-There is literally _no need_ for __Certificate Authorities__ when it comes to securing internet connections. The _only_ valuable thing these companies can do is act as an entity that verifies and attests to the existence of paperwork such as a Driver's license or a business license that somebody provided to them.
+There is literally _no need_ for __Certificate Authorities__ when it comes to securing internet connections. The _only_ valuable thing these companies can do is act as an entity that verifies and attests to the existence of paperwork such as a driver's license or a business license that somebody provided to them.
 
-In fact, __Certificate Authorities are the source and primary cause of the internet's insecurity.__ 
+In fact, __Certificate Authorities are the source and primary cause of the internet's insecurity.__
 
 TOFU, or "Trust-On-First-Use", the principle behind the "super secure software" known as Signal, is incredibly cheap (literally $0), and incredibly secure. This principle of authenticating a connection provides vastly superior security to that provided by CAs and is already implemented in browsers via the HPKP standard.
 
@@ -28,7 +28,7 @@ __Similarly, there is zero need__ for the "Verifier" or "Inspector" aspect of th
 
 The function that this component performs, the "verification" of the data that's associated with a DID, can and should be performed by the user's own device (e.g., a cellphone) at zero effective cost through the use of thin client technology. Outsourcing this task to anyone else compromises the security of the system by introducing a totally unnecessary trusted third-party.
 
-Furthermore, as shown by the comparison between CAs and Let's Encrypt, __if the implementation of this component involves any cost,__ then it suggests that people are being ripped off by some dishonest company for no reason.
+Furthermore, as with the comparison between CAs and Let's Encrypt, __if the implementation of this component involves any cost,__ then it suggests that people are being ripped off by some dishonest company for no reason.
 
 ## The architecture for DIDs already exists
 
