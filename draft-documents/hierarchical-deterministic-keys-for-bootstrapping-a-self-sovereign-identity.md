@@ -53,4 +53,4 @@ Placing the individual at a depth of 1 is the trusted third party model. In some
 2. Allen, Christopher. "[Principles of Self-Sovereign Identity](https://github.com/ChristopherA/self-sovereign-identity)." 2016.
 2. Shea, Ryan. "[Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Selective-Disclosure-of-Identity.md)". 2015.
 3. Lundkvist, Christian and Heck, Rouven. "[Questions around key management for digital identity systems](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/068c409acc117c81cf7a95e1c00f647d1557a943/topics-and-advance-readings/Identity-Property-Simulation.md)". 2015.
-4. https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki
+4. Wuille, Pieter. "[Hierarchical Deterministic Wallets](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)". 2016.
