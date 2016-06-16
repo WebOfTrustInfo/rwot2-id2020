@@ -38,7 +38,7 @@ In part, Bitcoin has prided itself on letting users 'be their own bank'. Cryptoc
 
 #### 2. Identity Models
 
-Identities can be represented at any key pair of a hierarchical deterministic key set. In the future, we may want to set a standard on the identity keypair to be a different keypair than the master one.
+Identities can be represented at any key pair of a hierarchical deterministic key set. In the future, we may want to set a standard on the identity keypair to be a different keypair than the master one.
 
 **1.1 Self-Sovereign Model.** 
 The BIP0032 standard states that a key hierarchy can be derived a depth from 0 to 3. Placing the individual at the core root of the derivation (depth 0), where the user is the holder of the seed and master key is the self-sovereign identity model. Here the user has the greatest degree of control and responsibility in managing their identity client-side.
