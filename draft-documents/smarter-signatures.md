@@ -125,15 +125,15 @@ Dex also more fully embraces functional programming: it’s built using lambda c
 
 Dex expressions should look quite familiar to Lisp programmers:
 
-(sig\_valid &lt;pubkey&gt; &lt;sig&gt; &lt;hash&gt;)
+> (sig\_valid &lt;pubkey&gt; &lt;sig&gt; &lt;hash&gt;)
 
 This function might be accessed with a lambda function like the following:
 
-(sig\_valid &lt;pubkey&gt; (cdr argm) (sha256 (car argm)))
+> (sig\_valid &lt;pubkey&gt; (cdr argm) (sha256 (car argm)))
 
 Which allows a message and its signature to be passed into the sig\_valid function:
 
-(sig\_valid &lt;pubkey&gt; (cdr '(&lt;msg&gt; &lt;sig&gt;)) (sha256 (car '(&lt;msg&gt; &lt;sig&gt;))))
+> (sig\_valid &lt;pubkey&gt; (cdr '(&lt;msg&gt; &lt;sig&gt;)) (sha256 (car '(&lt;msg&gt; &lt;sig&gt;))))
 
 When the cdr, the car, and the sha256 hash are all evaluated, the sig\_valid function can then do its job and determine the validity of the signature. Again, much more complexity is possible.
 
