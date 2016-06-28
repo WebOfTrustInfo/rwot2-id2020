@@ -180,18 +180,8 @@ So we offer this paper as the beginning of a conversation about how to create *s
 
 What do you suggest?
 
-Major References
-----------------
-
-Allen, Christopher, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close. 2015. “Smart Signatures”. Rebooting the Web of Trust I. [*https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf*](https://petertodd.org/2016/state-machine-consensus-building-blocks)
-
-Edström, Robert and Jack Pettersson. 2016. “Safer Smart Contracts through Type-Driven Development”. Chalmers University of Technology. [*http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf*](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf).
-
-Todd, Peter. 2016. “Closed Seal Sets and Truth Lists for Better Privacy and Censorship Resistance”. Peter Todd. [*https://petertodd.org/2016/closed-seal-sets-and-truth-lists-for-privacy*](http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf).
-
-Todd, Peter. 2016. “Building Blocks of the State Machine Approach to Consensus”. Peter Todd. [*https://petertodd.org/2016/state-machine-consensus-building-blocks*](https://distrinet.cs.kuleuven.be/research/taskforces/showTaskforce.do?taskforceID=seclang)
-
-Todd, Peter. 2016. “Dex: Deterministic Predicate Expressions for Smarter Signatures”. Rebooting the Web of Trust II: ID2020 Workshop. [*https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/DexPredicatesForSmarterSigs.md*](https://github.com/bitcoin/bips/blob/master/bip-0114.mediawiki)
+Footnotes
+---------
 
 [1] Del Castillo, Michael. 2016. “The DAO Attacked: Code Issue Leads to $60 Million Ether Theft”. Coin Desk. [*http://www.coindesk.com/dao-attacked-code-issue-leads-60-million-ether-theft/*](http://www.coindesk.com/dao-attacked-code-issue-leads-60-million-ether-theft/).
 
@@ -214,3 +204,16 @@ Todd, Peter. 2016. “Dex: Deterministic Predicate Expressions for Smarter Signa
 [10] SecLang Taskforce. 2016. “Security: Programming Languages”. DistriNet. [*https://distrinet.cs.kuleuven.be/research/taskforces/showTaskforce.do?taskforceID=seclang*](https://distrinet.cs.kuleuven.be/research/taskforces/showTaskforce.do?taskforceID=seclang).
 
 [11] Allen, Christopher, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close. 2015. “Smart Signatures”. Rebooting the Web of Trust I. [*https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf*](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf).
+
+Major References
+----------------
+
+Allen, Christopher, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close. 2015. “Smart Signatures”. Rebooting the Web of Trust I. [*https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf*](https://petertodd.org/2016/state-machine-consensus-building-blocks)
+
+Edström, Robert and Jack Pettersson. 2016. “Safer Smart Contracts through Type-Driven Development”. Chalmers University of Technology. [*http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf*](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf).
+
+Todd, Peter. 2016. “Closed Seal Sets and Truth Lists for Better Privacy and Censorship Resistance”. Peter Todd. [*https://petertodd.org/2016/closed-seal-sets-and-truth-lists-for-privacy*](http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf).
+
+Todd, Peter. 2016. “Building Blocks of the State Machine Approach to Consensus”. Peter Todd. [*https://petertodd.org/2016/state-machine-consensus-building-blocks*](https://distrinet.cs.kuleuven.be/research/taskforces/showTaskforce.do?taskforceID=seclang)
+
+Todd, Peter. 2016. “Dex: Deterministic Predicate Expressions for Smarter Signatures”. Rebooting the Web of Trust II: ID2020 Workshop. [*https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/DexPredicatesForSmarterSigs.md*](https://github.com/bitcoin/bips/blob/master/bip-0114.mediawiki)
