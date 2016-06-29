@@ -32,9 +32,9 @@ Design Goals
 
 At the ID2020 Design Workshop, there was broad consensus on the following two major goals for the DID specifications:
 
-1.  **DID:** Define the structure of a identifier that can serve as a universally unique system-independent discoverable key for a value
+1.  **DID:** Define the structure of a universally unique system-independent discoverable _key_ that can serve as a Decentralized Identifier
 
-2.  **DID Object:** Define the structure of a value for a DID that can meet four requirements:
+2.  **DID Object:** Define the structure of a _value_ for that key that can meet four requirements:
 
     1.  Provide cryptographic proof of:
 
