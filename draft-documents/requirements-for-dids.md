@@ -21,15 +21,11 @@ Principles
 
 The following principles were originally drafted by the XDI.org Registry Working Group (XRWG) to describe their requirements for an XDI registry. Our discussions have lead us to believe they apply to DID as well, so we have included them as guiding principles for design.
 
-> **Maximum interoperability.** DID infrastructure must conform to open standards and should enable any set of users and communities to discover and interoperate with each other.
->
-> **Maximum decentralization.** DID infrastructure should be designed to minimize central points of control and attack.
->
-> **Critical infrastructure.** DID infrastructure must provide for a high level of reliability, stability, scalability, security, sustainability and other requirements typical of critical internet infrastructure.
->
-> **Sovereign identity.** DID infrastructure should enable any principal (person or organization) to fully administer the principal’s own set of DIDs without the need to rely on an external administrative authority.
->
-> **Neutrality.** DID infrastructure should be available to all members of the public and should not discriminate against any party that wishes to use it for any lawful purpose.
+-   **Maximum interoperability.** DID infrastructure must conform to open standards and should enable any set of users and communities to discover and interoperate with each other.
+-   **Maximum decentralization.** DID infrastructure should be designed to minimize central points of control and attack.
+-   **Critical infrastructure.** DID infrastructure must provide for a high level of reliability, stability, scalability, security, sustainability and other requirements typical of critical internet infrastructure.
+-   **Sovereign identity.** DID infrastructure should enable any principal (person or organization) to fully administer the principal’s own set of DIDs without the need to rely on an external administrative authority.
+-   **Neutrality.** DID infrastructure should be available to all members of the public and should not discriminate against any party that wishes to use it for any lawful purpose.
 
 Design Goals
 ------------
