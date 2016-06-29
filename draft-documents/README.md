@@ -4,7 +4,7 @@ This is a current list of white papers and specs that are expected to come out o
 |-----------------------------------------------------|----------|-------------|---------|-----------------------------------------------------------|--------------------|
 | ***Chainpoint / Proof-of-X***                       | Wayne V. | Drafting    | Authors | -                                                         | Release: 6/29-6/30 |
 | ***The Insecurity of Charging for Authentication*** | Greg S.  | Approved Draft | Editor | [link](the-insecurity-of-charging-for-security-and-how-it-relates-to-decentralized-identifiers.md) |                    |
-| ***DID***                                           | Drummond | Drafting    | Authors | -                                                         | Slack Discussions  |
+| *** Requirements for DIDs***                                           | Drummond | First Draft    | Editor | -                                                         |  |
 | ***HD Keys***                                       | Kiara    | Drafting    | Authors | -                                                         |                    |
 | ***Identity as Correlation***                       | Joe A.   | Drafting    | Authors | -                                                         | End of Month?     |
 | ***Identity Containers & Relations in DID***        | Adrian   | Drafting    | Authors | -                                                         |  Commenting                  |
