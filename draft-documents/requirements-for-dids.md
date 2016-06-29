@@ -114,11 +114,11 @@ Unify all qualified ledgers into a global namespace in which each qualified ledg
 
 Option \#1: Use a URI or URN scheme, e.g.:
 
-urn:btc:&lt;ledger-specific-address&gt;
+> urn:btc:&lt;ledger-specific-address&gt;
 
 Option \#2: Use a meta-ledger that assigns DIDs to other ledgers. DIDs become hierarchical pairs in the format:
 
-&lt;ledger-location-did&gt;&lt;ledger-specific-address&gt;
+> &lt;ledger-location-did&gt;&lt;ledger-specific-address&gt;
  did:33ad7beb-1abc-4a26-b892-466df4379a51/&lt;ledger-specific-address&gt;
 
 ### Advantages
