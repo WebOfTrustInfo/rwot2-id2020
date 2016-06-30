@@ -4,14 +4,14 @@ This is a current list of white papers and specs that are expected to come out o
 |-----------------------------------------------------|----------|-------------|---------|-----------------------------------------------------------|--------------------|
 | ***Chainpoint / Proof-of-X***                       | Wayne V. | Drafting    | Authors | -                                                         | Release: 6/29-6/30 |
 | ***The Insecurity of Charging for Authentication*** | Greg S.  | Approved Draft | Editor | [link](the-insecurity-of-charging-for-security-and-how-it-relates-to-decentralized-identifiers.md) |                    |
-| ***Requirements for DIDs***                                           | Drummond | First Draft    | Editor | [link](requirements-for-dids.md)                                                         |  |
+| ***Requirements for DIDs***                                           | Drummond | Approved Draft    | Editor | [link](requirements-for-dids.md)                                                         |  |
 | ***HD Keys***                                       | Kiara    | First Draft    | Edit | [link](hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity.md)                                                         |                    |
 | ***Identity as Correlation***                       | Joe A.   | Drafting    | Authors | -                                                         | End of Month?     |
 | ***Identity Containers & Relations in DID***        | Adrian   | Drafting    | Authors | -                                                         |  Commenting                  |
 | ***Identity Graphs***                               | Markus   | Drafting    | Authors | -                                                         | Update: 6/10 |
 | ***Protecting Digital Identity in Developing Countries***                         | Wayne H. | Approved Draft    | Editor | [link](protecting-digital-identities-in-developing-countries.md)                                                         |  |
 | ***Self-Sovereign Identity Architecture Updates***  | Dave C.  | Drafting    | Authors | -                                                         | Pending Changes                    |
-| ***Smarter Signatures*** | Christopher A. | **Approved Draft** | Editor | [link](smarter-signatures.md) | |
+| ***Smarter Signatures*** | Christopher A. | Approved Draft | Editor | [link](smarter-signatures.md) | |
 | ***VCTF Use Cases***  | Joe A..  | Drafting    | Authors | -                                                         |  Comments on 6/22                    |
 
 Once you have proceeded through initial drafts, please lock any versions of your document in Google docs or elsewhere, and transfer your first draft here, to this Github folder, preferably as a MD document. (If you're unable to do so, an alternative is to contact Shannon with your final Doc, and he can get it transferred into MD.) From there, all continuing work should be done with the Github document as the master copy.
