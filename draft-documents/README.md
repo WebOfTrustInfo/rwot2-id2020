@@ -5,8 +5,8 @@ This is a current list of white papers and specs that are expected to come out o
 | ***Chainpoint / Proof-of-X***                       | Wayne V. | Drafting    | Authors | -                                                         | Release: 6/29-6/30 |
 | ***The Insecurity of Charging for Authentication*** | Greg S.  | Approved Draft | Editor | [link](the-insecurity-of-charging-for-security-and-how-it-relates-to-decentralized-identifiers.md) |                    |
 | ***Requirements for DIDs***                                           | Drummond | Approved Draft    | Editor | [link](requirements-for-dids.md)                                                         |  |
-| ***HD Keys***                                       | Kiara    | First Draft    | Edit | [link](hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity.md)                                                         |                    |
-| ***Identity as Correlation***                       | Joe A.   | Drafting    | Authors | -                                                         | End of Month?     |
+| ***HD Keys***                                       | Kiara    | First Draft    | Editor | [link](hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity.md)                                                         |                    |
+| ***Identity Crisis***                       | Joe A.   | First Draft    | Editor | [link](identity-crisis.md)                                                         |      |
 | ***Identity Containers & Relations in DID***        | Adrian   | Drafting    | Authors | -                                                         |  Commenting                  |
 | ***Identity Graphs***                               | Markus   | Drafting    | Authors | -                                                         | Update: 6/10 |
 | ***Protecting Digital Identity in Developing Countries***                         | Wayne H. | Approved Draft    | Editor | [link](protecting-digital-identities-in-developing-countries.md)                                                         |  |
