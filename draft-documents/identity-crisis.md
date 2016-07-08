@@ -19,7 +19,7 @@ Introduction
 
 The term “identity” is a challenge.
 
-Both laypeople and experts struggle to communicate clearly about identity. The term has numerous rich and useful meanings. That same flexibility and expressivity also make it easy to misunderstand subtle nuances. We compensate with adjectives, like “digital identity” or “legal identity”, but often still speak past each other. We regularly refer to “identities” as things either assigned to us or that we own, identities we control or present, instead of using more rigorous terms such as “identifiers” or “credentials”. This fluidity often confuses because, at its core, identity is an emergent phenomenon that doesn’t have an existence independent of the observer.
+Both laypeople and experts struggle to communicate clearly about it. The term has numerous rich and useful meanings. That same flexibility and expressivity also make it easy to misunderstand subtle nuances. We compensate with adjectives, creating new phrases like “digital identity” or “legal identity”, but we often still speak past each other. We regularly refer to “identities” as things either assigned to us or that we own, things we control or present, instead of using more rigorous terms such as “identifiers” or “credentials”. This fluidity often confuses because, at its core, identity is an emergent phenomenon that doesn’t have an existence independent of the observer.
 
 We propose using “correlation” instead of “identity” when discussing concrete identities in identity systems. It isn’t a word-for-word replacement, but using it *will* improve the conversation. We argue that “correlation” provides a more concise and clear understanding of how identity is created and used in both digital and real-world systems, and that using it as an alternative to “identity” will improve communication and understanding.
 
@@ -32,11 +32,11 @@ Without an observer to recognize a subject, identity doesn’t exist.
 
 In simpler terms, if identification doesn’t occur, there is no identity.
 
-Using this alternative lens that we’ve asked you to peer through, we challenge the appropriateness of focusing on an “identity” as a property of a thing (or person), rather than as a phenomenon that emerges between an observer and a subject. We think that using the word “identity” obfuscates more than it communicates.
+Using our alternative lens, we challenge the appropriateness of focusing on an “identity” as a property of a thing (or person), rather than as a phenomenon that emerges between an observer and a subject. We think that using the word “identity” obfuscates more than it communicates.
 
-We’ve personally experienced thousands of hours of discussion, debate, and disagreement about just what “identity” means. As identity professionals, we understand the need to clarify the lexicon. It’s important. Unfortunately, in every new community that needs a common understanding of the term, we keep seeing the same conversations repeated with different highlights and different influences.
+We’ve personally experienced thousands of hours of discussion, debate, and disagreement about just what “identity” means. As identity professionals, we understand the need to clarify the lexicon. It’s important. Unfortunately, in every new community that works toward a common understanding of the term, we see the same conversations repeated with different highlights and different influences.
 
-Fortunately, even with the potentially confusing use of “identity” as a property, all of the varied understandings of identity depend on correlation. Consider three excerpts from dictionary definitions of “identity”.
+Even with these potentially confusing uses of “identity”, all of the varied understandings of the word depend on correlation. Consider three excerpts from dictionary definitions of “identity”.
 
 First, from the **Collins English Dictionary**[1]:
 
@@ -44,7 +44,7 @@ First, from the **Collins English Dictionary**[1]:
 
 2.  the individual characteristics by which a person or thing is recognized
 
-Second, the **Unabridged Random House Dictionary**[2]:
+Second, from the **Unabridged Random House Dictionary**[2]:
 
 1.  the state or fact of remaining the same one or ones, as under varying aspects or conditions:
     > *The identity of the fingerprints on the gun with those on file provided evidence that he was the killer.*
@@ -60,19 +60,19 @@ Third, from **Merriam Webster**[3]:
 2.  a : the distinguishing character or personality of an individual : individuality
     > b : the relation established by psychological identification
 
-Collins favors identity as a collection of characteristics; Random House focuses on a state of unique continuity; and Merriam Webster suggests both. What all eight definitions share is the notion that identity addresses continuity across contexts. Identity means that an entity can be recognized in a later context as, somehow, the same entity known from an earlier context:
+Collins favors identity as a collection of characteristics; Random House focuses on a state of unique continuity; and Merriam Webster suggests both. What all eight definitions share is the notion that identity addresses continuity across contexts. Identity means that an entity can somehow be recognized in a later context as the same entity known from an earlier context:
 
--   Two definitions focus on the characteristics that allow this recognition (Collins 1, 2, and Merriam 2a);
+-   Three definitions concentrate on the characteristics that allow this recognition (Collins 1, 2, and Merriam 2a);
 
--   four focus on sameness (Random House 1, 2 and Merriam 1a, b); and
+-   four definitions highlight sameness (Random House 1, 2 and Merriam 1a, b); and
 
--   three focus on the mental act of recognition (Collins 1, 2 and Merriam 2b).
+-   three definitions feature the mental act of recognition (Collins 1, 2 and Merriam 2b).
 
-These three different focuses (on characteristics, sameness, and recognition) all describe relating what is known about a subject in one context to something else known about the same subject in another context. In other words, “identity” means correlating information about the **same** subject in **different** situations. If we can identify a subject, we know something about him or her that isn’t based on immediate observation.
+These three different focuses (on characteristics, on sameness, and on recognition) all relate what is known about a subject in one context to something else known about the same subject in another context. In other words, “identity” means correlating information about the **same** subject in **different** situations. If we can identify a subject, we can know something about him or her that isn’t based on immediate observation.
 
 However, when we treat identity as a property (e.g., as “a digital identity”) rather than as the emergent phenomenon of identity, we sometimes confuse the conversation. We often refer to the characteristics and credentials we use for recognition as if they constitute identity *independent* of recognition by an observer.
 
-In discussing modern identity systems, professionals and engineers sometimes say:
+This is seen in discussions of modern identity systems, when professionals and engineers say things like:
 
 -   "you select your identity," or
 
@@ -80,7 +80,7 @@ In discussing modern identity systems, professionals and engineers sometimes say
 
 -   "users own and assert their own identity."
 
-These statements ignore the role of the observer and often confuse the listener about what is actually selected, stored, or owned & asserted. This conflation of identifiers, attributes, credentials, and identity is, we believe, a primary driver of miscommunication and misunderstanding in identity discussions.
+These statements ignore the role of the observer and often confuse the listener about what is actually selected, stored, owned, or asserted. We believe this conflation of identifiers, attributes, credentials, and identity is a primary driver of miscommunication and misunderstanding in identity discussions.
 
 Identity is more than just bits
 -------------------------------
@@ -128,7 +128,7 @@ In the digital and real-world systems described above, we were able to quickly d
 
 *That* is the point of this paper.
 
-We argue that, when discussing identity systems, “correlation” enables a more concise discussion and clearer understanding of how identity is created and used[8]. It’s not that “identity” is incorrect, it’s that the mechanisms of identity are inherently mechanisms of correlation and *therefore*, we can be clearer by focusing the discussion how correlation is managed.
+We argue that, when discussing identity systems, “correlation” enables a more concise discussion and clearer understanding of how identity is created and used[8]. It’s not that “identity” is incorrect, it’s that the mechanisms of identity are inherently mechanisms of correlation and, *therefore*, we can be clearer by focusing the discussion how correlation is managed.
 
 Everyone, layperson and expert alike, can be more concise, more rigorous, and better understood by using correlation (*and* anti-correlation) when discussing *the exact same identity systems*.
 
@@ -139,7 +139,7 @@ Following are several examples of identity in the modern world. We discuss each 
 
 -   **More than a Piggy Bank** *Transitive Correlation*
 
--   **Beverage Bracele**t *Temporary Correlation With Limited Disclosure*
+-   **Beverage Bracelet** *Temporary Correlation With Limited Disclosure*
 
 -   ***He* Did It!** *Correlation Using Neither Identifiers Nor Consent*
 
@@ -152,9 +152,9 @@ More than a Piggy Bank
 
 ###### Transitive Correlation
 
-In the U.S, when we go to the bank to open an account we provide our social security number, in part so that banks can comply with federal regulations such as reporting cash transactions over $10,000. The social security number is, generally, only used by the bank for regulatory filing (whereas they use an account number and a recorded signature to correlate our deposits and withdrawals with our accounts). In turn, the government uses our social security numbers to correlate our taxable and fiscally regulated transactions throughout our lifetime. This is transitive correlation, where an identifier is used not by the immediate recipient (the bank) for correlating our direct interactions with them, but when the recipient needs to refer to us in communications with a third party (the government). 
+In the U.S, when we go to the bank to open an account we provide our social security number, in part so that banks can comply with federal regulations such as reporting cash transactions over $10,000. The social security number is, generally, only used by the bank for regulatory filing (whereas they use an account number and a recorded signature to correlate our deposits and withdrawals with our accounts). In turn, the government uses our social security numbers to correlate our taxable and fiscally regulated transactions throughout our lifetime. This is transitive correlation, where an identifier is used not by the immediate recipient (the bank) for correlating our direct interactions with them, but by a third party (the government) when the recipient needs to refer to us in communications with that entity.
 
-Because of the ready availability of social security numbers and its innate role in reporting personal finances to public agencies, it is *also* often used by financial intermediaries to query and report private financial interactions. Credit bureaus and creditors use social security numbers as a primary identifier to correlate individuals across credit transactions. This unintended use has made the social security number both more valuable and, unfortunately, more accessible, as a target for “identity theft”. 
+Because of the ready availability of social security numbers and their innate role in reporting personal finances to public agencies, they are *also* often used by financial intermediaries to query and report private financial interactions. Credit bureaus and creditors use social security numbers as a primary identifier to correlate individuals across credit transactions. This unintended use has made the social security number both more valuable and, unfortunately, more accessible, as a target for “identity theft”. 
 
 Correlation by the US and state governments is the intended correlation. Correlation by creditors and credit bureaus is unintended, and the correlation by identity thieves is undesired.
 
@@ -163,24 +163,26 @@ Beverage Bracelet
 
 ###### Temporary Correlation with Limited Disclosure
 
-When we attend a music festival, we sometimes receive a disposable, colored bracelet that allows us to purchase alcoholic drinks. To get the bracelet, we provide proof that we are at least the minimum legal drinking age to a single, designated agent at the event. Then the bracelet allows us to purchase drinks from bartenders throughout the grounds without further use of legal credentials. At the point of sale, the bartender can verify that the person ordering a drink has been vetted for the legal age limit by the presence of the bracelet, which can’t be removed without destroying it. These bracelets are durable enough to last for as long as a few days and are generally discarded afterward rather than reused; different events use different colors and patterns so it is a challenge for underage drinkers to know before hand what type of bracelet would let them sneak past the age restriction.
+When we attend a music festival, we sometimes receive a disposable, colored bracelet that allows us to purchase alcoholic drinks. To get the bracelet, we provide proof that we are at least the minimum legal drinking age to a single, designated agent at the event. Then the bracelet allows us to purchase drinks from bartenders throughout the grounds without further use of legal credentials. At the point of sale, the bartender can verify that the person ordering a drink has been vetted for the legal age limit by the presence of the bracelet, which can’t be removed without destroying it. 
 
-This is an example of temporary correlation and of limited disclosure. The information contained in the bracelet is minimal: "the wearer has demonstrated proof of age.” This limits disclosure of potentially risky personally identifiable information, like birth date or address, to the initial point of issuance[9]. The bartender gets just what they need, just when they need it. 
+This is an example of temporary correlation. These bracelets are durable enough to last for as long as a few days and are generally discarded afterward rather than reused; different events use different colors and patterns so it is a challenge for underage drinkers to know before hand what type of bracelet would let them sneak past the age restriction.
 
-Bracelets are an inexpensive, privacy enhancing technology that also reduces the time bartenders spend checking IDs — which increases sales and profit and reduces the compliance costs for the venue. Not only is it easier to manage than alternative systems, like isolated “beer gardens”, the bracelets themselves provide evidence of due care to authorities who regularly punish non-compliant vendors with penalties from $10,000 up to revoking the liquor license.
+It's also an example of limited disclosure. The information contained in the bracelet is minimal: "the wearer has demonstrated proof of age.” This restricts the disclosure of potentially risky personally identifiable information, like birth date or address, to the initial point of issuance[9]. The bartender gets just what they need, just when they need it. 
+
+Bracelets are an inexpensive, privacy enhancing technology that also reduces the time bartenders spend checking IDs — which increases sales and profit and reduces the compliance costs for the venue. Not only is it easier to manage than alternative systems, like isolated “beer gardens”, but the bracelets themselves also provide evidence of due care to authorities who regularly punish non-compliant vendors with penalties from $10,000 up to revoking the liquor license.
 
 *He* Did It!
 ------------
 
-###### Correlation using neither identifiers nor consent
+###### Correlation Using Neither Identifiers nor Consent
 
 It is a staple of crime dramas and real-world courtrooms to call on eyewitnesses to literally point out the alleged offender so the jury can see whom they are accusing. Prosecuting attorneys love eyewitnesses because they provide a human face for corroborating the physical evidence. At the same time, defending attorneys will go to great lengths to question the veracity and the character of the witness to undermine their claims. The success of one side or another can literally be a matter of life or death in cases of capital punishment.
 
-The battle before the jury depends on whether or not they believe the asserted correlation. That identification does not depend on the eyewitness knowing the name of the accused, their address, their birthdate, or their social security number. The eyewitness simply needs to demonstrate that they reliably recognize the accused as the party they saw committing the crime[10]. Yes, eyewitnesses are known to be wrong sometimes, just as forensic evidence is never 100% accurate. The battle is between the prosecutor’s efforts to correlate the accused with the crime and the efforts of both the defense attorney and the accused to prevent that correlation. Criminals often go to great lengths to lay false trails, hide or destroy evidence, and even lie or commit further crimes in their attempt to prevent such correlation. The “identity” of the killer ultimately depends on the court’s ability to fairly and accurately resolve this battle of correlation.
+The battle before the jury depends on whether or not they believe the asserted correlation. That identification does not depend on the eyewitness knowing the name of the accused, their address, their birthdate, or their social security number. The eyewitness simply needs to demonstrate that they reliably recognize the accused as the party they saw committing the crime[10]. Yes, eyewitnesses are known to be wrong sometimes, just as forensic evidence is never 100% accurate. The battle is between the efforts of the prosecutor to correlate the accused with the crime and the efforts of both the defense attorney and the accused to prevent that correlation. Criminals often go to great lengths to lay false trails and hide or destroy evidence, and may even lie or commit further crimes in their attempt to prevent such correlation. The “identity” of the killer ultimately depends on the court’s ability to fairly and accurately resolve this battle of correlation.
 
 While many valid digital identity use cases base their architecture on consent and control by the subject, that doesn’t apply to all situations. In this example of identity, the subject (i.e., the alleged criminal) does not consent to the correlation. This lack of consent is especially true for law enforcement, border patrol, and the military[11]. 
 
-In order to allow regulators, lawmakers, ambassadors, and heads of state to make decisions about digital identity systems, it will be vital to understand how such systems correlate people and how they prevent undesired correlations. The goal is a system that is flexible enough — and *understandable enough* — to allow organizations, companies, and sovereign states to choose the best tradeoffs for their needs.
+In order to allow regulators, lawmakers, ambassadors, and heads of state make decisions about digital identity systems, it will be vital to understand how such systems correlate people and how they prevent undesired correlations. The goal is a system that is flexible enough — and *understandable enough* — to allow organizations, companies, and sovereign states to choose the best tradeoffs for their needs.
 
 I know where you live
 ---------------------
@@ -189,7 +191,7 @@ I know where you live
 
 In the Jungle of Calais, seven thousand refugees fleeing political strife and violence have forged a temporary home[12]. In nine months it went from virgin ground to the largest slum in Europe. In these harsh conditions, many fear any form of identification, knowing that their families back home could be punished or killed by the regime they fled if the link is made between them and those they left behind. The lack of identity credentials makes it hard to access justice and health services and to integrate into society. Their fear of persecution keeps many on the fringe. Some have destroyed identity documentation while others avoid even being recorded for unofficial documentaries.
 
-This is the fear some refugees live with every day. For the regimes, it is identity weaponization; for the refugees, it is fear of unwanted correlation. In this case, the consequences aren’t harms done directly to the subject — the traditional focus of privacy efforts — but rather the harm that might be done to friends and family back home. Unfortunately, this directly conflicts with the approaches of several identity solutions presented at the recent ID2020 Summit and the related ID2020 Design Workshop. One in particular proposed a DNA registry designed to help refugees reconnect with family back home. It will be hard to get refugees to participate in such a program when being connected with family is exactly what they fear.
+This is the fear some refugees live with every day. For the regimes, it is identity weaponization; for the refugees, it is fear of unwanted correlation. In this case, the consequences aren’t harms done directly to the subject — the traditional focus of privacy efforts — but rather the harm that might be done to friends and family back home. Unfortunately, this directly conflicts with the approaches of several identity solutions presented at the recent ID2020 Summit and the related ID2020 Design Workshop. One in particular proposed a DNA registry designed to help refugees reconnect with family back home. It will be hard to get refugees to participate in such a program when being connected with family is exactly what they fear.
 
 The challenge is to build a system that allows just-enough correlation, just-in-time, to enable the services necessary for human dignity and freedom, without facilitating unwanted correlation that can and does enable further violence and even genocide. Perhaps the trickiest part will be finding a solution that is so clear and obvious that the typical refugee, despite distrust of formal authority and speaking a second language, can understand it and believe it won’t put their loved ones at risk.
 
@@ -198,7 +200,7 @@ Pinkeye Guy
 
 ###### Spontaneous Correlation
 
-Consider a dinner party where, tragically, a guest who happens to have conjunctivitis (aka pinkeye) trips and breaks the host’s favorite vase. Later, we might not recall his name, or maybe we never knew it. Yet, there’s a good chance we’ll remember that guy who had pinkeye:
+Consider a dinner party where, a guest who happens to have conjunctivitis (aka pinkeye) tragically trips and breaks the host’s favorite vase. Later, we might not recall his name, or maybe we never knew it. Yet, there’s a good chance we’ll remember that guy who had pinkeye:
 
 > “Remember that guy who smashed Elly’s vase?”
 >
