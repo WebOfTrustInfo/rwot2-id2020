@@ -182,7 +182,7 @@ The battle before the jury depends on whether or not they believe the asserted c
 
 While many valid digital identity use cases base their architecture on consent and control by the subject, that doesn’t apply to all situations. In this example of identity, the subject (i.e., the alleged criminal) does not consent to the correlation. This lack of consent is especially true for law enforcement, border patrol, and the military[11]. 
 
-In order to allow regulators, lawmakers, ambassadors, and heads of state make decisions about digital identity systems, it will be vital to understand how such systems correlate people and how they prevent undesired correlations. The goal is a system that is flexible enough — and *understandable enough* — to allow organizations, companies, and sovereign states to choose the best tradeoffs for their needs.
+In order to allow regulators, lawmakers, ambassadors, and heads of state to make decisions about digital identity systems, it will be vital to understand how such systems correlate people and how they prevent undesired correlations. The goal is a system that is flexible enough — and *understandable enough* — to allow organizations, companies, and sovereign states to choose the best tradeoffs for their needs.
 
 I know where you live
 ---------------------
