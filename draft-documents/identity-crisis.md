@@ -54,10 +54,10 @@ Second, from the **Unabridged Random House Dictionary**[2]:
 
 Third, from **Merriam Webster**[3]:
 
-1.  a : sameness of essential or generic character in different instances
+1.  > a : sameness of essential or generic character in different instances
     > b : sameness in all that constitutes the objective reality of a thing : oneness
 
-2.  a : the distinguishing character or personality of an individual : individuality
+2.  > a : the distinguishing character or personality of an individual : individuality
     > b : the relation established by psychological identification
 
 Collins favors identity as a collection of characteristics; Random House focuses on a state of unique continuity; and Merriam Webster suggests both. What all eight definitions share is the notion that identity addresses continuity across contexts. Identity means that an entity can somehow be recognized in a later context as the same entity known from an earlier context:
