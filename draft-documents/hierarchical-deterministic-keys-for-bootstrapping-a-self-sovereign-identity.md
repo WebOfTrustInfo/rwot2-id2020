@@ -4,13 +4,13 @@ v0.2 July 18, 2016
 
 --- 
 
-**Abstract.** 
+### Abstract.
 
 In the context of Bitcoin, Hierarchical deterministic (HD) keys are predominately used to simplify wallet backups. Because the child key can operate independently and the parent key has the ability to monitor and control each child key, that parent key can still continue to operate even if the child key is compromised. When a Bitcoin or similar blockchain token is used to represent a person or an identity, the master HD key facilitates the creation and control of an identity that can then create subsequent child identities or personas. HD keys simplify key management in Bitcoin, and when HD keys are used to represent an identity it simplifies identity management on a blockchain.
 
 ---
 
-#### Introduction
+### Introduction
 
 In 1991, PGP was the first piece of software to introduce the concept of identity-based cryptography by associating an individual to a cryptographic key pair for encrypted communication. One significant impediment to adoption of identity-based cryptography was its dependence on a centralized public-key infrastructure. The set of procedures needed to create, manage, distribute, use, store, revoke, and manage keys all take place locally to the user, then need to be broadcasted to the centralized public-key server.
 
@@ -34,11 +34,11 @@ The HD keys can generate a nearly infinite number of child keys from its parent,
 
 The standard or specific blockchain where HD key are used is somewhat less relevant than the functionality of the HD keys themselves. The BIP0032 standard was designed specifically for Bitcoin transactions and to create a uniformity of Bitcoin wallets. Implementations of HD keys on blockchains specifically designed for identity may take a verity of different approaches to their HD key targeted uses, derivations, and standards. 
 
-#### 1. Derivations and Standards
+### 1. Derivations and Standards
 
 [Still Drafting..]
 
-#### 2. Identity Models
+### 2. Identity Models
 
 Identities can be represented at any key pair of a hierarchical deterministic key set. Because the master key has the control of every subsequent child key, position of the master key is the only form of truly self-sovereign identity model. For use cases where the user chooses to differ key management of the master key to a third party such that they control one of the child keys of the master, they do so by compromising on the degree of access an individual has over their keys and related identity. 
 
@@ -50,7 +50,7 @@ Placing the individual at the core root of the derivation (depth 0), where the u
 **1.2 Trusted Third-party Model.**
 Placing the individual at a depth of 1 or any subsequent derivation is the trusted third-party model. In some cases where an individual is not willing or capable of managing their own keys on their device.
 
-#### 3. Use-cases
+### 3. Use-cases
 
 **Browser Authorization.**
 HD keys allow for greater control on the part of the user since the parent keys can easily revoke its child keys. An individual can give their browser a key pair and permission to sign certificates with a newly generated child from that key pair each time. If the user ever wants to revoke that ability their parent key can revoke the authority of the child key it gave to the browser.
@@ -64,7 +64,7 @@ In the context of governments, corporations, or families, the built-in hierarchy
 **Credit Reputation.**
 Bitcoin has prided itself on letting users 'be their own bank'. Cryptocurrency currently allows users to 'make deposits', transfer money, and prove ownership, yet there is no possibility of a credit system without identity. In managing a credit reputation, a borrower's repayment history is the basis of an individual's financial reputation for lenders to use when determining financial risk. It is possible to manage and prove an individual's credit history with HD keys by fragmenting a part of a user's identity into individual payments with child keys, then revealing some larger part of their identity with its parent key when it's required or relevant.
 
-#### References
+### References
 ---
 
 Allen, Christopher. "[Principles of Self-Sovereign Identity](https://github.com/ChristopherA/self-sovereign-identity)." 2016.
