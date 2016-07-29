@@ -33,7 +33,7 @@ Without an observer to recognize a subject, identity doesn’t exist.
 
 In simpler terms, if identification doesn’t occur, there is no identity.
 
-Using our alternative lens, we challenge the appropriateness of focusing on an “identity” as a property of a thing (or person), rather than as a phenomenon that emerges between an observer and a subject. We think that using the word “identity” obfuscates more than it communicates.
+Using our alternative lens, we challenge the appropriateness of focusing on an “identity” as a property of a thing (or person), rather than as a phenomenon that emerges between an observer and a subject. We think that using the word “identity,” as a concrete, ownable, controllable asset, obfuscates more than it communicates.
 
 We’ve personally experienced thousands of hours of discussion, debate, and disagreement about just what “identity” means. As identity professionals, we understand the need to clarify the lexicon. It’s important. Unfortunately, in every new community that works toward a common understanding of the term, we see the same conversations repeated with different highlights and different influences.
 
@@ -63,7 +63,7 @@ Third, from **Merriam Webster**[3]:
 
     > b : the relation established by psychological identification
 
-Collins favors identity as a collection of characteristics; Random House focuses on a state of unique continuity; and Merriam Webster suggests both. What all eight definitions share is the notion that identity addresses continuity across contexts. Identity means that an entity can somehow be recognized in a later context as the same entity known from an earlier context:
+Collins favors identity as a collection of characteristics; Random House focuses on a state of unique continuity; and Merriam Webster suggests both. All eight definitions share the notion that identity addresses continuity across contexts. Identity means that a subject can somehow be recognized in a later context as the same subject known from an earlier context:
 
 -   Three definitions concentrate on the characteristics that allow this recognition (Collins 1, 2, and Merriam 2a);
 
@@ -73,7 +73,7 @@ Collins favors identity as a collection of characteristics; Random House focuses
 
 These three different focuses (on characteristics, on sameness, and on recognition) all relate what is known about a subject in one context to something else known about the same subject in another context. In other words, “identity” means correlating information about the **same** subject in **different** situations. If we can identify a subject, we can know something about him or her that isn’t based on immediate observation.
 
-However, when we treat identity as a property (e.g., as “a digital identity”) rather than as the emergent phenomenon of identity, we sometimes confuse the conversation. We often refer to the characteristics and credentials we use for recognition as if they constitute identity *independent* of recognition by an observer.
+However, when we treat identity as a concrete asset (e.g., as “a digital identity”) rather than as the emergent phenomenon of identity, we sometimes confuse the conversation. We often refer to the characteristics and credentials we use for recognition as if they constitute identity *independent* of recognition by an observer.
 
 This is seen in discussions of modern identity systems, when professionals and engineers say things like:
 
@@ -100,7 +100,7 @@ Without further information, we can’t tell if that is an identifier, an attrib
 
 Yet, if I were to assign that GUID as an identifier for some object, **everything** changes and it **becomes** an identifier. This is the semiotic nature of the signifier and the signified[5]: until the string is known as a signifier referring to some (potentially  unknown) signified, it isn’t an identifier. It’s just a string of hexadecimal digits.
 
-Similarly, any concrete “identity”, such as a collection of attributes in a verified claim, isn’t actually an identity until and unless an observer correlates it with a subject. We may have a username or an email address or a string of UTF8 characters with the label “name”. These bits of information could exist anywhere: in a database, in a form submission, or printed on a piece of paper. They may even occur when millions of monkeys type on a typewriter. We might even know that the data are identifiers rather than arbitrarily ordered bits, but until a specific piece data is associated with a subject, they aren’t an identity. They are, at best, identifiers and, at worst, arbitrary bits.
+Similarly, any concrete “identity”, such as a collection of attributes in a verified claim, isn’t actually an identity until and unless an observer correlates it with a subject. We may have a username or an email address or a string of UTF8 characters with the label “name”. These bits of information could exist anywhere: in a database, in a form submission, or printed on a piece of paper. They may even occur when millions of monkeys type on a typewriter. We might even know that the data are identifiers rather than arbitrarily ordered bits, but until specific data are associated with a subject, they aren’t an identity. They are, at best, identifiers and, at worst, arbitrary bits.
 
 Consider the password cracking tool Medusa[6]. Like many password crackers, Medusa will accept a file containing strings to use as user names in a brute force attack. Unless the target system actually has a matching login for a given string, that string isn’t an identity in that system (or potentially anywhere, as the strings could be randomly generated). Until the target system correlates that string with the username of an account on the system, it is incorrect to describe that string as an identity. Yet we often refer to usernames as “identities”.
 
@@ -121,7 +121,7 @@ These are examples where common notions of “identity” lead to incomplete, in
 The philosophy and politics of identity
 ---------------------------------------
 
-Typical digital systems use identifiers, attributes, and historical logs to correlate individuals across contexts, such as across multiple visits to a website. Typical real-world systems issue credentials that bind identifiers to long-term, observable, measurable attributes and facts — such as name, race, height, weight, hair color, a picture, and birthdate — in order to correlate a human with certain privileges or responsibilities, like a license to drive.
+Typical digital systems use identifiers, attributes, and transaction logs to correlate individuals across contexts, such as across multiple visits to a website. Typical real-world systems issue credentials that bind identifiers to long-term, observable, measurable attributes and facts — such as name, race, height, weight, hair color, a picture, and birthdate — in order to correlate a human with certain privileges or responsibilities, like a license to drive.
 
 In discussing both digital and real-world cases, we sometimes confuse the notion of identifying a singular “self” — a specific human person — with the mechanisms by which we do so. This leads to philosophical and civil debates about such things as the right to be forgotten and the innate value of anonymous and pseudonymous speech in a functioning democracy. When we think about “identity” in terms of “who we ***are***”, we get caught up in the consequences and ramifications of policy and privacy and human rights. These are important debates, but they often slip into abstractions, miscommunication, and political disagreements that undermine our efforts to build functioning identity systems. On the other hand, when we think about “identity” as a mere collection of attributes or identifiers, we ignore and sometimes dismiss the deeper meanings others interpret in the word.
 
@@ -155,7 +155,7 @@ More than a Piggy Bank
 
 ###### Transitive Correlation
 
-In the U.S, when we go to the bank to open an account we provide our social security number, in part so that banks can comply with federal regulations such as reporting cash transactions over $10,000. The social security number is, generally, only used by the bank for regulatory filing (whereas they use an account number and a recorded signature to correlate our deposits and withdrawals with our accounts). In turn, the government uses our social security numbers to correlate our taxable and fiscally regulated transactions throughout our lifetime. This is transitive correlation, where an identifier is used not by the immediate recipient (the bank) for correlating our direct interactions with them, but by a third party (the government) when the recipient needs to refer to us in communications with that entity.
+In the U.S, when we go to the bank to open an account we provide our social security number, in part so that banks can comply with federal regulations like reporting cash transactions over $10,000. The social security number is, generally, only used by the bank for regulatory filing (whereas they use an account number and a recorded signature to correlate our deposits and withdrawals with our accounts). In turn, the government uses our social security numbers to correlate our taxable and fiscally regulated transactions throughout our lifetime. This is transitive correlation, where an identifier is used not by the immediate recipient (the bank) for correlating our direct interactions with them, but by a third party (the government) when the recipient needs to refer to us in communications with that entity.
 
 Because of the ready availability of social security numbers and their innate role in reporting personal finances to public agencies, they are *also* often used by financial intermediaries to query and report private financial interactions. Credit bureaus and creditors use social security numbers as a primary identifier to correlate individuals across credit transactions. This unintended use has made the social security number both more valuable and, unfortunately, more accessible, as a target for “identity theft”. 
 
@@ -220,7 +220,7 @@ Conclusion
 
 Using “correlation” to describe identity systems provides a simpler, more coherent view of mechanisms, capabilities, and risks. The term doesn’t change the nature of the system. It is simply more concise and more accurate. It results in discussions that are more rigorous and easier to understand.
 
-Even if you disagree with our arguments about *why* “identity” as a property is problematic, you can still use “correlation” to be clearer.
+Even if you disagree with our arguments about *why* “identity” as a concrete property is problematic, you can still use “correlation” to be clearer.
 
 When you find yourself in a project where the definition of “identity” seems to be a repeating source of challenging conversations, try describing the role of identity in terms of correlation. Shifting to alternative language may help you and your colleagues see the commonalities in your perspectives rather than the differences. It may allow perspectives to be heard that were getting lost in the debate. It may highlight that the issue at hand is more political than technical and allow the group to steer the conversation in the most productive direction, whichever way that is.
 
@@ -233,11 +233,11 @@ We believe that doing so will make you more effective and more productive, and y
 Footnotes
 =========
 
-[1] identity. Dictionary.com. Collins English Dictionary - Complete & Unabridged 10th Edition. HarperCollins Publishers. [*http://www.dictionary.com/browse/identity*](http://www.dictionary.com/browse/identity) (accessed: June 09, 2016).
+[1] "Identity." Dictionary.com. Collins English Dictionary - Complete & Unabridged 10th Edition. HarperCollins Publishers. Online. Accessed June 09, 2016. [*http://www.dictionary.com/browse/identity*](http://www.dictionary.com/browse/identity)
 
-[2] identity. Dictionary.com. Dictionary.com Unabridged. Random House, Inc. [*http://www.dictionary.com/browse/identity*](http://www.dictionary.com/browse/identity) (accessed: June 09, 2016).
+[2] "Identity." Dictionary.com. Dictionary.com Unabridged. Random House, Inc. Online. Accessed June 09, 2016. [*http://www.dictionary.com/browse/identity*](http://www.dictionary.com/browse/identity)
 
-[3] "Identity." Merriam-Webster.com. Merriam-Webster, n.d. Web. 9 June 2016.
+[3] "Identity." Merriam-Webster.com. Online. Accessed June 09, 2016. [*http://www.merriam-webster.com/dictionary/identity*](http://www.merriam-webster.com/dictionary/identity) 
 
 [4] In this case, it isn’t at the time of this writing.
 
