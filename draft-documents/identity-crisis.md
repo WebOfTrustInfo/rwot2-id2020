@@ -20,7 +20,7 @@ Introduction
 
 The term “identity” is a challenge.
 
-Both laypeople and experts struggle to communicate clearly about it. The term has numerous rich and useful meanings. That same flexibility and expressivity also make it easy to misunderstand subtle nuances. We compensate with adjectives, creating new phrases like “digital identity” or “legal identity”, but we often still speak past each other. We regularly refer to “identities” as things either assigned to us or that we own, things we control or present, instead of using more rigorous terms such as “identifiers” or “credentials”. This fluidity often confuses because, at its core, identity is an emergent phenomenon that doesn’t have an existence independent of the observer.
+Both laypeople and experts struggle to communicate clearly about it. The term has numerous rich and useful meanings. That same flexibility and expressivity also makes it easy to misunderstand subtle nuances. We compensate with adjectives, creating new phrases like “digital identity” or “legal identity”, but we often still speak past each other. We regularly refer to “identities” as things that are assigned to us or that we own, things we control or present, instead of using more rigorous terms such as “identifiers” or “credentials”. This fluidity often confuses because, at its core, identity is an emergent phenomenon that doesn’t have an existence independent of the observer.
 
 We propose using “correlation” instead of “identity” when discussing concrete identities in identity systems. It isn’t a word-for-word replacement, but using it *will* improve the conversation. We argue that “correlation” provides a more concise and clear understanding of how identity is created and used in both digital and real-world systems, and that using it as an alternative to “identity” will improve communication and understanding.
 
@@ -33,9 +33,9 @@ Without an observer to recognize a subject, identity doesn’t exist.
 
 In simpler terms, if identification doesn’t occur, there is no identity.
 
-Using our alternative lens, we challenge the appropriateness of focusing on an “identity” as a property of a thing (or person), rather than as a phenomenon that emerges between an observer and a subject. We think that using the word “identity,” as a concrete, ownable, controllable asset, obfuscates more than it communicates.
+Using our alternative lens, we challenge the appropriateness of focusing on an “identity” as a property of a thing (or person), rather than as a phenomenon that emerges between an observer and a subject. We think that using the word “identity” as a concrete, ownable, controllable asset obfuscates more than it communicates.
 
-We’ve personally experienced thousands of hours of discussion, debate, and disagreement about just what “identity” means. As identity professionals, we understand the need to clarify the lexicon. It’s important. Unfortunately, in every new community that works toward a common understanding of the term, we see the same conversations repeated with different highlights and different influences.
+We have personally experienced thousands of hours of discussion, debate, and disagreement about just what “identity” means. As identity professionals, we understand the need to clarify the lexicon. It’s important. Unfortunately, in every new community that works toward a common understanding of the term, we see the same conversations repeated with different highlights and different influences.
 
 Even with these potentially confusing uses of “identity”, all of the varied understandings of the word depend on correlation. Consider three excerpts from dictionary definitions of “identity”.
 
@@ -90,7 +90,7 @@ Identity is more than just bits
 
 Identity manifests when we see a face and recall a name. It is in play when we see a badge and acknowledge someone’s authority. It emerges when we see an individual and treat them as white or black, gay or straight, male or female.
 
-It doesn’t exist without that correlation between an identifier or attribute and a subject. If you can’t identify a thing, it means you can’t place it. You can’t relate it to something else you already know. It has no identity, precisely because you can’t correlate it with anything else.
+It doesn’t exist without that correlation between an identifier or attribute and a subject. If you can’t identify a thing, it means you can’t place it. You can’t relate it to something else you already know. It has no identity precisely because you can’t correlate it with anything else.
 
 Take an arbitrary string of hexadecimal digits:
 
@@ -98,9 +98,9 @@ Take an arbitrary string of hexadecimal digits:
 
 Without further information, we can’t tell if that is an identifier, an attribute, a credential, or just entropy. It may eventually become an identifier, but it isn’t yet — not until someone associates it with the thing it identifies[4]. It’s just an example string of digits. It is certainly not an identity.
 
-Yet, if I were to assign that GUID as an identifier for some object, **everything** changes and it **becomes** an identifier. This is the semiotic nature of the signifier and the signified[5]: until the string is known as a signifier referring to some (potentially  unknown) signified, it isn’t an identifier. It’s just a string of hexadecimal digits.
+Yet, if we were to assign that GUID as an identifier for some object, **everything** changes and it **becomes** an identifier. This is the semiotic nature of the signifier and the signified[5]: until the string is known as a signifier referring to some (potentially  unknown) signified, it isn’t an identifier. It’s just a string of hexadecimal digits.
 
-Similarly, any concrete “identity”, such as a collection of attributes in a verified claim, isn’t actually an identity until and unless an observer correlates it with a subject. We may have a username or an email address or a string of UTF8 characters with the label “name”. These bits of information could exist anywhere: in a database, in a form submission, or printed on a piece of paper. They may even occur when millions of monkeys type on a typewriter. We might even know that the data are identifiers rather than arbitrarily ordered bits, but until specific data are associated with a subject, they aren’t an identity. They are, at best, identifiers and, at worst, arbitrary bits.
+Similarly, any concrete “identity”, such as a collection of attributes in a verified claim, isn’t actually an identity until and unless an observer correlates it with a subject. We may have a username or an email address or a string of UTF8 characters with the label “name”. These bits of information could exist anywhere: in a database, in a form submission, or printed on a piece of paper. They may even occur when millions of monkeys type on a typewriter. We might even know that the data is identifiers, rather than arbitrarily ordered bits, but until specific data is associated with a subject, it isn't an identity. It is, at best, identifiers and, at worst, arbitrary bits.
 
 Consider the password cracking tool Medusa[6]. Like many password crackers, Medusa will accept a file containing strings to use as user names in a brute force attack. Unless the target system actually has a matching login for a given string, that string isn’t an identity in that system (or potentially anywhere, as the strings could be randomly generated). Until the target system correlates that string with the username of an account on the system, it is incorrect to describe that string as an identity. Yet we often refer to usernames as “identities”.
 
@@ -110,7 +110,7 @@ Consider this…
 
 > DNA doesn’t identify a person until it is used to correlate him or her with evidence at a scene of a crime, or links her or him to an ethnic group or ancestral lineage. Without correlation, DNA is simply a physical encoding that drives protein generation in the body.
 >
-> The social security number for a child, printed on a card, stored in a filing cabinet, isn’t an identity until and unless he, or someone else, uses it. The number itself is just a number.
+> The social security number for a child, printed on a card and stored in a filing cabinet, isn’t an identity until and unless he, or someone else, uses it. The number itself is just a number.
 >
 > An “identity” is not the sum collection of all the ways that one might be identified… we can watch any good detective show and see the trail of clues that lead to tracking down a suspect; yet we don’t think of each clue as an “identity”.
 >
@@ -166,13 +166,13 @@ Beverage Bracelet
 
 ###### Temporary Correlation with Limited Disclosure
 
-When we attend a music festival, we sometimes receive a disposable, colored bracelet that allows us to purchase alcoholic drinks. To get the bracelet, we provide proof that we are at least the minimum legal drinking age to a single, designated agent at the event. Then the bracelet allows us to purchase drinks from bartenders throughout the grounds without further use of legal credentials. At the point of sale, the bartender can verify that the person ordering a drink has been vetted for the legal age limit by the presence of the bracelet, which can’t be removed without destroying it. 
+When we attend a music festival, we sometimes receive a disposable, colored bracelet that allows us to purchase alcoholic drinks. To get the bracelet, we provide proof that we are at least the minimum legal drinking age to a single, designated agent at the event. Then the bracelet allows us to purchase drinks from bartenders throughout the grounds without further use of legal credentials. At the point of sale, the bartender can verify that the person ordering a drink has been vetted for the legal age limit using the presence of the bracelet, which can’t be removed without destroying it. 
 
 This is an example of temporary correlation. These bracelets are durable enough to last for as long as a few days and are generally discarded afterward rather than reused; different events use different colors and patterns so it is a challenge for underage drinkers to know before hand what type of bracelet would let them sneak past the age restriction.
 
 It's also an example of limited disclosure. The information contained in the bracelet is minimal: "the wearer has demonstrated proof of age.” This restricts the disclosure of potentially risky personally identifiable information, like birth date or address, to the initial point of issuance[9]. The bartender gets just what they need, just when they need it. 
 
-Bracelets are an inexpensive, privacy enhancing technology that also reduces the time bartenders spend checking IDs — which increases sales and profit and reduces the compliance costs for the venue. Not only is it easier to manage than alternative systems, like isolated “beer gardens”, but the bracelets themselves also provide evidence of due care to authorities who regularly punish non-compliant vendors with penalties from $10,000 up to revoking the liquor license.
+Bracelets are an inexpensive privacy-enhancing technology that also reduces the time bartenders spend checking IDs — which increases sales and profit and reduces the compliance costs for the venue. Not only is it easier to manage than alternative systems, like isolated “beer gardens”, but the bracelets themselves also provide evidence of due care to authorities who regularly punish non-compliant vendors with penalties from $10,000 up to revoking the liquor license.
 
 *He* Did It!
 ------------
@@ -181,7 +181,7 @@ Bracelets are an inexpensive, privacy enhancing technology that also reduces the
 
 It is a staple of crime dramas and real-world courtrooms to call on eyewitnesses to literally point out the alleged offender so the jury can see whom they are accusing. Prosecuting attorneys love eyewitnesses because they provide a human face for corroborating the physical evidence. At the same time, defending attorneys will go to great lengths to question the veracity and the character of the witness to undermine their claims. The success of one side or another can literally be a matter of life or death in cases of capital punishment.
 
-The battle before the jury depends on whether or not they believe the asserted correlation. That identification does not depend on the eyewitness knowing the name of the accused, their address, their birthdate, or their social security number. The eyewitness simply needs to demonstrate that they reliably recognize the accused as the party they saw committing the crime[10]. Yes, eyewitnesses are known to be wrong sometimes, just as forensic evidence is never 100% accurate. The battle is between the efforts of the prosecutor to correlate the accused with the crime and the efforts of both the defense attorney and the accused to prevent that correlation. Criminals often go to great lengths to lay false trails and hide or destroy evidence, and may even lie or commit further crimes in their attempt to prevent such correlation. The “identity” of the killer ultimately depends on the court’s ability to fairly and accurately resolve this battle of correlation.
+Victory in the battle before the jury depends on whether or not they believe the asserted correlation. That identification does not depend on the eyewitness knowing the name of the accused, their address, their birthdate, or their social security number. The eyewitness simply needs to demonstrate that they reliably recognize the accused as the party they saw committing the crime[10]. Yes, eyewitnesses are known to be wrong sometimes, just as forensic evidence is never 100% accurate. The battle is between the efforts of the prosecutor to correlate the accused with the crime and the efforts of both the defense attorney and the accused to prevent that correlation. Criminals often go to great lengths to lay false trails and hide or destroy evidence, and may even lie or commit further crimes in their attempt to prevent such correlation. The “identity” of the killer ultimately depends on the court’s ability to fairly and accurately resolve this battle of correlation.
 
 While many valid digital identity use cases base their architecture on consent and control by the subject, that doesn’t apply to all situations. In this example of identity, the subject (i.e., the alleged criminal) does not consent to the correlation. This lack of consent is especially true for law enforcement, border patrol, and the military[11]. 
 
@@ -194,9 +194,9 @@ I know where you live
 
 In the Jungle of Calais, seven thousand refugees fleeing political strife and violence have forged a temporary home[12]. In nine months it went from virgin ground to the largest slum in Europe. In these harsh conditions, many fear any form of identification, knowing that their families back home could be punished or killed by the regime they fled if the link is made between them and those they left behind. The lack of identity credentials makes it hard to access justice and health services and to integrate into society. Their fear of persecution keeps many on the fringe. Some have destroyed identity documentation while others avoid even being recorded for unofficial documentaries.
 
-This is the fear some refugees live with every day. For the regimes, it is identity weaponization; for the refugees, it is fear of unwanted correlation. In this case, the consequences aren’t harms done directly to the subject — the traditional focus of privacy efforts — but rather the harm that might be done to friends and family back home. Unfortunately, this directly conflicts with the approaches of several identity solutions presented at the recent ID2020 Summit and the related ID2020 Design Workshop. One in particular proposed a DNA registry designed to help refugees reconnect with family back home. It will be hard to get refugees to participate in such a program when being connected with family is exactly what they fear.
+This is the fear some refugees live with every day. For the regimes, it is identity weaponization; for the refugees, it is fear of unwanted correlation. In this case, the consequences isn't the harm done directly to the subject — the traditional focus of privacy efforts — but rather the harm that might be done to friends and family back home. Unfortunately, this directly conflicts with the approaches of several identity solutions presented at the recent ID2020 Summit and the related ID2020 Design Workshop. One in particular proposed a DNA registry designed to help refugees reconnect with family back home. It will be hard to get refugees to participate in such a program when being connected with family is exactly what they fear.
 
-The challenge is to build a system that allows just-enough correlation, just-in-time, to enable the services necessary for human dignity and freedom, without facilitating unwanted correlation that can and does enable further violence and even genocide. Perhaps the trickiest part will be finding a solution that is so clear and obvious that the typical refugee, despite distrust of formal authority and speaking a second language, can understand it and believe it won’t put their loved ones at risk.
+The challenge is to build a system that allows just-enough correlation, just-in-time, to enable the services necessary for human dignity and freedom, without facilitating unwanted correlation that can and does enable further violence and even genocide. Perhaps the trickiest part will be finding a solution that is so clear and obvious that the typical refugee, despite distrust of formal authority and despite speaking a second language, can understand it and believe it won’t put their loved ones at risk.
 
 Pinkeye Guy
 -----------
@@ -222,7 +222,7 @@ Using “correlation” to describe identity systems provides a simpler, more co
 
 Even if you disagree with our arguments about *why* “identity” as a concrete property is problematic, you can still use “correlation” to be clearer.
 
-When you find yourself in a project where the definition of “identity” seems to be a repeating source of challenging conversations, try describing the role of identity in terms of correlation. Shifting to alternative language may help you and your colleagues see the commonalities in your perspectives rather than the differences. It may allow perspectives to be heard that were getting lost in the debate. It may highlight that the issue at hand is more political than technical and allow the group to steer the conversation in the most productive direction, whichever way that is.
+When you find yourself in a project where the definition of “identity” seems to be a repeating source of challenging conversations, try describing the role of identity in terms of correlation. Shifting to alternative language may help you and your colleagues to see the commonalities in your perspectives rather than the differences. It may allow perspectives to be heard that were getting lost in the debate. It may highlight that the issue at hand is more political than technical and allow the group to steer the conversation in the most productive direction, whichever way that is.
 
 We believe that *every* identity system can be fully characterized by how it manages correlation across contexts.
 
