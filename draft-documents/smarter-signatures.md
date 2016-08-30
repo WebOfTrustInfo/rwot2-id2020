@@ -163,19 +163,29 @@ They are also nicely *compact*. Complex boolean logic trees of hashed conditions
 
 **Disadvantages.** Crypto-conditions is another *novel* system that is still undergoing development, while it also offers another relatively simple and *constrained* take on smart signatures.
 
+### Experiment \#4: Sequent Calculus
+
+Russell O'Connor offers a fourth approach to smart signatures based on sequent calculus. Where many of the previous approaches are higher level programming languages, a sequent calculus approach instead envisions smart signatures as formal proofs, where simpler proofs are functionally combined to ultimately create smarter signatures that can be provably analyzed. 
+
+The science of sequent calculus has been well-studied in recent years[14][15]. It allwos the definition of call-by-name and call-by-value semantics _without using recursion_. Instead of issuing programs alongside proofs, a sequent calculus language can issue programs that _are proofs_. Some expansion is needed to incorporate smart signatures into this model, but that's what O'Connor is currently working on. A full paper on this topic is pending. 
+
+**Advantages.** The best advantage of a sequent calculus is that it's *provable* and thus secure all the way down. Any functional language has to ultimately depend on the trust of a virtual machine, but a solid sequent calculus approach is instead provably secure down to the metal.
+
+**Disadvantages.** The main disadvantage of a sequent calculus approach is that it's perhaps even more *esoteric* than the lambda calcuses previously described. Certainly, there will be some issues with inspectability as a result. However, it's possible that a language could be built atop the formal proofs that made them more accessible.
+
 ### The Security of Signatures
 
 As the Ethereum crisis showed us, smart signatures and smart contracts won’t be secure until their programming languages are secured and protected against errors. Resolving this problem is just as important as laying the foundations of a smart signature language. Fortunately, a number of people have been tackling this issue.
 
-Jack Pettersson and Robert Edström of the Chalmers University of Technology have written a thesis on making smart contracts safer[9]. Their approach focuses on Idris, a functional programming language with lambda binding. If uses an advanced type system to offer solutions for several classes of common errors and even provides a backend for Ethereum.
+Jack Pettersson and Robert Edström of the Chalmers University of Technology have written a thesis on making smart contracts safer[16]. Their approach focuses on Idris, a functional programming language with lambda binding. If uses an advanced type system to offer solutions for several classes of common errors and even provides a backend for Ethereum.
 
-More broadly, the SecLang taskforce[10] focuses on security in programming languages. They have been writing papers for decades that analyze security, improve privacy, and remove vulnerabilities. Their approaches could be vital to enabling that same security in smart contract languages.
+More broadly, the SecLang taskforce[17] focuses on security in programming languages. They have been writing papers for decades that analyze security, improve privacy, and remove vulnerabilities. Their approaches could be vital to enabling that same security in smart contract languages.
 
 Both Chalmers and SecLang point us toward options for safety and security in smart signatures languages of all sorts; there are doubtless other possibilities.
 
 ### Open Questions
 
-Figuring out how to create and secure a new language for smart signatures is just the first step. There are many other open questions, some of which were raised in an earlier Rebooting the Web of Trust paper[11].
+Figuring out how to create and secure a new language for smart signatures is just the first step. There are many other open questions, some of which were raised in an earlier Rebooting the Web of Trust paper[18].
 
 ***Context.*** Though functional languages are stateless, they still require contexts: how do they receive input? Bitcoin provides context through the output script of a previous transaction. Other online tools have internal contexts, external contexts, or run contexts. However, there’s nothing parallel for smart signatures. What contexts are required, and how should they be implemented?
 
@@ -225,12 +235,15 @@ Footnotes
 
 [13] Thomas, Stefan. 2016. "Crypto-Conditions: draft-thomas-crypto-conditions-00". IETF Datatracker. [*https://datatracker.ietf.org/doc/draft-thomas-crypto-conditions/*](https://datatracker.ietf.org/doc/draft-thomas-crypto-conditions/)
 
+[14] Ariola, Zenn M., Aaron Bohannon, and Amr Sabry. 2009. "Sequent Calculi and Abstract Machines". ACM Transactions on Programming Languages and Systems. [*http://www.cs.indiana.edu/~sabry/papers/sequent.pdf*](http://www.cs.indiana.edu/~sabry/papers/sequent.pdf).
 
-[9] Edström, Robert and Jack Pettersson. 2016. “Safer Smart Contracts through Type-Driven Development”. Chalmers University of Technology. [*http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf*](http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf).
+[15] Guenot, Nicolas and Daniel Gustafsson. 2015. "Sequent Calculus and Equational Programming". IT University of Copenhagen. [*http://arxiv.org/pdf/1507.08056.pdf*](http://arxiv.org/pdf/1507.08056.pdf).
 
-[10] SecLang Taskforce. 2016. “Security: Programming Languages”. DistriNet. [*https://distrinet.cs.kuleuven.be/research/taskforces/showTaskforce.do?taskforceID=seclang*](https://distrinet.cs.kuleuven.be/research/taskforces/showTaskforce.do?taskforceID=seclang).
+[16] Edström, Robert and Jack Pettersson. 2016. “Safer Smart Contracts through Type-Driven Development”. Chalmers University of Technology. [*http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf*](http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf).
 
-[11] Allen, Christopher, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close. 2015. “Smart Signatures”. Rebooting the Web of Trust I. [*https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf*](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf).
+[17] SecLang Taskforce. 2016. “Security: Programming Languages”. DistriNet. [*https://distrinet.cs.kuleuven.be/research/taskforces/showTaskforce.do?taskforceID=seclang*](https://distrinet.cs.kuleuven.be/research/taskforces/showTaskforce.do?taskforceID=seclang).
+
+[18] Allen, Christopher, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close. 2015. “Smart Signatures”. Rebooting the Web of Trust I. [*https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf*](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf).
 
 
 Major References
