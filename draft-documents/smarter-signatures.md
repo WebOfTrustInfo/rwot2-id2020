@@ -147,22 +147,21 @@ Finally, Dex is *upwardly mobile.* smart signatures can be building blocks for c
 
 Compared to a well-tested language like Bitcoin Script, Dex is quite *novel.* It’s not just untested, it’s truly experimental. Though there’s great potential for its expansion, it will have to be thoroughly examined before it can reach that potential.
 
-### Experiment \#3: [Crypto-Conditions](https://github.com/interledger/rfcs/tree/master/0002-crypto-conditions)
+### Experiment \#3: Crypto Conditions
 
-Crypto-conditions were developed by Stefan Thomas as part of the [Interledger](https://interledger.org) project.
+Crypto-conditions[9] were developed by Stefan Thomas as part of the Interledger[10] project, based on  a requirement for a smart signature data type in the Interledger Protocol's core data model. The protocol relies on one or more ledgers that are involved in an end-to-end transfer being able to put funds on hold pending the fulfillment of a predefined condition. This condition is, in effect, the definition of a smart signature and the fulfillment of that condition is the signature itself.
 
-The Interledger Protocol has a requirement for a smart signature data-type in its core data model. The protocol relies on one or more ledgers, involved in an end-to-end transfer, putting funds on hold pending the fulfillment of a predefined condition. This condition is, in effect, the definition of a smart signature and the fulfillment of that condition is the signature itself.
+An essential requirement of crypto-conditions is that any implementation _must_ be able to evaluate if it will be able to validate the signature later (fulfillment) just by looking at the signature definition (condition). This allows a ledger to reject a transfer that is using a condition the ledger doesn't support before the end-to-end transfer is fully prepared, avoiding a case where the ledger fails to release the funds upon receipt of the signature (fulfillment) because they are unable to validate it.
 
-An essential requirement of crypto-conditions is that any implementation MUST be able to evaluate, just by looking at the signature definition (condition), if it will be able to validate the signature (fulfillment) later. This allows a ledger to reject a transfer that is using a condition the ledger doesn't support, before the end-to-end transfer is fully prepared, avoiding a case where the ledger fails to release the funds upon receipt of the signature (fulfillment) because they are unable to validate it.
+More information is available in Crypto-condition workshops presented at Interledger[11] and at IETF[12]. In adition, Crypto-Conditions (draft-thomas-crypto-conditions-00) has been submitted as an Internet Draft for candidacy as a standards track RFC[13].
 
-Crypto-conditions defines a format for encoding these signature definitions (conditions) and signatures (fulfillments) with the following features:
+Crypto-conditions defines a format for encoding these signature definitions (conditions) and signatures (fulfillments) that incorporates versioning, a feature-requirement bitmask, and a max-fullfilment size requirement. This supports validation of fulcillment conditions and offers other advantages ...
 
-1. ***Versioning*** - Crypto-conditions contain a version indicator that allows implementations to evolve independently and introduce new algorithms, primitives and encoding formats in a backwards-compatible manner. This future-proofs crypto-conditions so that it is not tied to older algorithms and key sizes that may become insecure over time.
-2. ***Feature Indicators*** and ***Max Fulfillment Size*** - The encoding includes a bitmask that indicates which features are required by the implementation to validate a fulfillment and also the maximum size that the fulfillment will take. The bitmask and size indicator are provided in the condition so that implementations can determine if they will be able to validate a fulfillment even if they only have access to the condition at that moment. The meaning of the bits will evolve through version upgrades to the protocol.
-3. ***Compactness*** - Thresholds allow a condition to be constructed from basic building blocks to create a complex boolean logic tree where each leaf is a hashed condition itself. Using Merkle Trees it is possible to compact this structure down to a single hash so that conditions are very compact. This also allows a fulfillment to leave any unfulfilled branches (such as in an m-of-n signature) as hashes. The result is that in a complex condition, the branches that are not required for evaluation of the fulfillment remain hashed and compact.
-4. ***Deterministic*** - Rather than attempting to define a Turing complete signature language crypto-conditions simply combines existing primitives that can be deterministically validated on any platform. As such the combined result (using simple boolean algebra) is also determinisitic across platforms.
+**Adventages.** Crypto-conditions are also *deterministic*. Rather than attempting to define a Turing complete signature language crypto-conditions simply combines existing primitives that can be deterministically validated on any platform. As such the combined result (using simple boolean algebra) is also determinisitic across platforms.
 
-Stefan has presented a number of workshops describing Crypto-conditions both at Interledger Workshops[12] and at IETF[13] and has submitted Crypto-Conditions (draft-thomas-crypto-conditions-00) as an Internet Draft for candidacy as a standards track RFC[14].
+They are also nicely *compact*. Complex boolean logic trees of hashed conditions can be compacted down to a single hash using Merkle Trees. This also allows a fulfillment to leave any unfulfilled branches (such as in an m-of-n signature) as hashes. 
+
+**Disadvantages.** Crypto-conditions is another *novel* system that is still undergoing development, while it also offers another relatively simple and *constrained* take on smart signatures.
 
 ### The Security of Signatures
 
@@ -216,20 +215,23 @@ Footnotes
 
 [8] Todd, Peter. 2016. “Building Blocks of the State Machine Approach to Consensus”. Peter Todd. [*https://petertodd.org/2016/state-machine-consensus-building-blocks*](https://petertodd.org/2016/state-machine-consensus-building-blocks).
 
+[9] Thomas, Stefan. "Crypto Conditions". GitHub. [*https://github.com/interledger/rfcs/tree/master/0002-crypto-conditions*](https://github.com/interledger/rfcs/tree/master/0002-crypto-conditions).
+
+[10] Interledger web site. [*https://interledger.org*](https://interledger.org).
+
+[11] Thomas, Stefan. 2016. "Crypto-conditions". ILP Workshop. [*https://www.youtube.com/watch?v=YfBDDWp58po&list=PLIR1FI1vEGeGvladEm-YZIvokXyH4bbIL&index=7*](https://www.youtube.com/watch?v=YfBDDWp58po&list=PLIR1FI1vEGeGvladEm-YZIvokXyH4bbIL&index=7).
+
+[12] Thomas, Stefan. 2016. "Crypto-conditions: A Standard for Composable Signatures". IETF96 Ledger. [*https://youtu.be/uPXXfClTqSY?t=49m8s*](https://youtu.be/uPXXfClTqSY?t=49m8s)
+
+[13] Thomas, Stefan. 2016. "Crypto-Conditions: draft-thomas-crypto-conditions-00". IETF Datatracker. [*https://datatracker.ietf.org/doc/draft-thomas-crypto-conditions/*](https://datatracker.ietf.org/doc/draft-thomas-crypto-conditions/)
+
+
 [9] Edström, Robert and Jack Pettersson. 2016. “Safer Smart Contracts through Type-Driven Development”. Chalmers University of Technology. [*http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf*](http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf).
 
 [10] SecLang Taskforce. 2016. “Security: Programming Languages”. DistriNet. [*https://distrinet.cs.kuleuven.be/research/taskforces/showTaskforce.do?taskforceID=seclang*](https://distrinet.cs.kuleuven.be/research/taskforces/showTaskforce.do?taskforceID=seclang).
 
 [11] Allen, Christopher, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close. 2015. “Smart Signatures”. Rebooting the Web of Trust I. [*https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf*](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf).
 
-[12] Crypto-conditions - Stefan Thomas @ ILP Workshop Feb 2016.
-[https://www.youtube.com/watch?v=YfBDDWp58po&list=PLIR1FI1vEGeGvladEm-YZIvokXyH4bbIL&index=7](https://www.youtube.com/watch?v=YfBDDWp58po&list=PLIR1FI1vEGeGvladEm-YZIvokXyH4bbIL&index=7).
-
-[13] IETF 96 Berlin Ledger BoF - 2016-07-21
-[https://youtu.be/uPXXfClTqSY?t=49m8s](https://youtu.be/uPXXfClTqSY?t=49m8s)
-
-[14] Crypto-Conditions - draft-thomas-crypto-conditions-00
-[https://datatracker.ietf.org/doc/draft-thomas-crypto-conditions/](https://datatracker.ietf.org/doc/draft-thomas-crypto-conditions/)
 
 Major References
 ----------------
