@@ -5,7 +5,7 @@ Smarter Signatures: Experiments in Verifications
 
 *A White Paper from Rebooting the Web of Trust II: The ID2020 Designshop*
 
-Technologies like the Web of Trust and PKI lay the foundation for *identity* on the internet: they map a human persona to a cryptographic construct that is represented by a public key and protected by a private key. *Digital signatures* are fundamental to these digital identities and have been widely used in a variety of applications. They’re the heart of SSH, the foundation of certificates, and even the core of newer technologies like blockchain.
+Technologies like the Web of Trust and PKI lay the foundation for *identity* on the internet: they map a human persona to a cryptographic construct that is represented by a public key and protected by a private key. *Digital signatures* are fundamental to these digital identities and have been widely used in a variety of applications. They’re the heart of SSH, the foundation of certificates, and the core of newer technologies like blockchain.
 
 However, today’s simplistic signatures are just the start; they can be improved, to create more powerful and more complex signatures that can truly be better and *smarter*.
 
@@ -18,13 +18,13 @@ The traditional usage of digital signatures is quite straightforward. The owner 
 
 Bitcoin is one of the few technologies that offers something more: multisignatures. Transactions can be signed by up to N different people, of whom M are required; for example a 2 of 3 multi-sig would require two people from a group of three to sign a transaction.
 
-However, Bitcoin multi-sigs are just a first step. Even if the simple signatures of the modern day were expanded to include multisignatures of any size, they still wouldn’t support the full richness of business and computer logic that is becoming a part of our digital life. Simple signatures can’t offer the flexibility that is required for modern enterprises, and they can’t offer the reliability that is required for modern finances.
+However, Bitcoin multi-sigs are just a first step. Even if the simple signatures of the modern day were expanded to include multisignatures of any size, they still wouldn’t support the full richness of business and computer logic that is becoming a part of our digital life. Simple signatures can’t offer the flexibility that is needed by modern enterprises, and they can’t offer the reliability that is required for modern finances.
 
 To support these needs requires a new kind of signature — a *smarter signature* that increases options while still meeting the responsibilities of a robust and trusted signature system.
 
 ### The Uses of Smart Signatures
 
-The core use of signatures is *verification*: they must ensure that the authorization conditions required for a task are met. In the world of simple signatures, that meant verifying that the right person signed a message. However smart signatures have a wider scope, supporting many more use cases.
+The core use of a signature is *verification*: it must ensure that the authorization conditions required for a task are met. In the world of simple signatures, that meant verifying that the right person signed a message. However smart signatures have a wider scope, supporting many more use cases.
 
 Some examples follow. They should be considered a starting point, enumerating some of the needs for smart signatures, without being a be-all or end-all.
 
@@ -32,9 +32,9 @@ Some examples follow. They should be considered a starting point, enumerating so
 
     1.  ***Multisignature Expressions.*** A smart signature should support the inclusion of multiple signatures via a logical AND operator. They signatures would *all* be required for verification, forming an N of N multisignature, such as joint homeowners who all need to sign over a deed.
 
-    2.  ***Multisignature Subsets.*** A smart signature should also support M of N multisignatures where only *some* signatures are required for verification, such as a married couple, either of whom can write checks from a bank account.
+    2.  ***Multisignature Subsets.*** A smart signature should also support M of N multisignatures where only *some* signatures are required for verification, such as a married couple, either of whom can write checks from a joint bank account.
 
-    3.  ***Multisignature Equivalents.*** A smart signature should support the inclusion of multiple signatures via a logical OR operator, such as when a legacy RSA signature, a current EC signatures, and a future-proof Hash Signature that is quantum resistant but very slow are all included and any of them can be used to verify the signature.
+    3.  ***Multisignature Equivalents.*** A smart signature should support the inclusion of multiple signatures via a logical OR operator, such as when a legacy RSA signature, a current EC signatures, and a future-proof Hash Signature (which is quantum resistant but very slow) are all included and any of them can be used to verify the signature.
 
     4.  ***Varied Content.*** A smart signature should support the inclusion and combination of a variety of different signature elements, including other verification elements like biometric signatures and proof of hardware control, such as a lead developer who requires both his signature and a hardware token to sign off on software releases. It should also support the inclusion of elements helpful to enable delegation and other signature uses, such as timestamps.
 
@@ -44,7 +44,7 @@ Some examples follow. They should be considered a starting point, enumerating so
 
     2.  ***Time-Expired Delegation.*** A key holder should be able to automatically authorize a person or a device if their own use of a key goes inactive for an extended amount of time, such as when a key holder dies, and their successor needs to take over signatures.
 
-    3.  ***Use-Limited Delegation.*** A key holder should be able to authorize a person to sign only in limited situations, such as a software team that can sign a development version of software, but not a stable version.
+    3.  ***Use-Limited Delegation.*** A key holder should be able to authorize a person to sign only in limited situations, such as a software team that can sign a development version of software but not a stable version.
 
     4.  ***Content-Limited Delegation.*** A key holder should be able to authorize a person to sign messages with specific content, such as a financial department that can sign to issue bonds with a maximum amount and a bounded interest rate.
 
@@ -60,7 +60,7 @@ Some of these use cases obviously will require some calculation. However, smart 
 
 ### The Requirements of Smart Signatures
 
-Because smart signatures offer increased complexity over simple signatures, care must be taken to ensure that the complexity does not overpower the security of either the signatures or the systems that they’re running upon. To ensure this, we list six suggested requirements that must be met by smart signature systems:
+Because smart signatures offer increased complexity over simple signatures, care must be taken to ensure that the complexity does not overpower the security of either the signatures or the systems that they’re running upon. To ensure this, six  requirements are lsited, as suggestions for smart signature systems:
 
 1.  ***Composable.*** The increased complexity of smart signatures requires that they be built using some sort of programming language. However, the language itself must remain simple, with complexity built up from a constrained set of operations. This ensures the security of the signature language.
 
@@ -74,24 +74,24 @@ Because smart signatures offer increased complexity over simple signatures, care
 
 6.  ***Efficient.*** Though we place no requirements on the difficulty of creating signatures, the cost of verifying them should be very low. This also ensures the stability of the computer system.
 
-One other element that should be considered is ***privacy***. There is ultimately a trade-off between flexibility and fungibility in smart signature design: many of the functions that are added to smart signatures in turn require participants to reveal more about who they are, reducing the substitutability of the persons involved in the signatures and any resources being signed. So, even if privacy is not a _requirement_, it should be a _consideration_; any decisions about the level of privacy in a signature system should be known and purposeful.
+One other element that should be considered is ***privacy***. In smart signature design, there is a trade-off between flexibility and fungibility: many of the functions that make signatures smarter also require participants to reveal more about who they are, reducing the substitutability of the persons involved in the signatures and of any resources being signed. Even if privacy is not a _requirement_, it should be a _consideration_; any decisions about the level of privacy in a signature system should be known and purposeful.
 
-A smart signature system that supports the use cases described above, that meets the requirements listed here, and that considers its security implications, would add powerful tools to the digital world by meeting the needs of the financial and business worlds.
+A smart signature system that supports the use cases described above, that meets the requirements listed here, and that considers its privacy implications, would add powerful tools to the digital world by meeting the needs of the financial and business worlds.
 
 Experimenting with Smart Signatures
 -----------------------------------
 
-Fulfilling these uses and meeting these requirements of smart signatures necessitates the creation of better languages and better tools. However, this creation of a new foundation for smart signatures (and eventually smarter contracts) can be tricky and full of pitfalls, as shown by the recent problems plaguing The DAO on Ethereum, where flaws in a contract’s code led to the theft of tens of millions of dollars[1].
+Fulfilling these uses and meeting these requirements for smart signatures necessitates the creation of better languages and better tools. However, the creation of a new foundation for smart signatures (and eventually smarter contracts) can be tricky and full of pitfalls, as shown by the recent problems plaguing The DAO on Ethereum, where flaws in a contract’s code led to the theft of tens of millions of dollars[1].
 
-The Ethereum crisis clearly shows that the design of new languages for smart signature systems must be thorough and comprehensive. We must experiment with many options, to ultimately produce something that is stable and trustworthy.
+The Ethereum crisis clearly shows that the design of new languages for smart signature systems must be thorough and comprehensive. Architects must experiment with many options, to ultimately produce something that is stable and trustworthy.
 
 A few different possibilities are discussed below. They should be considered starting points, not ending points. They are not being offered as standards, nor even as the preferred options for smart signature systems. They are instead offered for discussion and for expansion, in the hope that they will eventually lead the way to a more robust smart signature system and the beginning of a more robust web of trust.
 
 ### The Languages of Smart Signatures
 
-Functional programming languages are our preferred choice for creating smart signatures because they meet three of the suggested requirements: they’re composable, they’re provable, and they’re deterministic. The composability and provability emerge from the fact that functional programming languages are built of pure mathematical functions; it’s easy to put them together to create more complex systems and it’s easy to prove what they do. The determinism emerges from the fact that functional programming languages do not support state or mutable data; they guarantee that the same inputs will always produce the same outputs.
+Functional programming languages are a good choice for the foundation of smart signatures because they meet three of the suggested requirements: they’re composable, they’re provable, and they’re deterministic. The composability and provability emerge from the fact that functional programming languages are built of pure mathematical functions; it’s easy to put them together to create more complex systems and it’s easy to prove what they do. The determinism emerges from the fact that functional programming languages do not support state or mutable data; they guarantee that the same inputs will always produce the same outputs.
 
-There are a few options for functional languages. Lambda calculus languages are the classic choice, but the Forth-like Bitcoin Script with its stack-driven functionality offers another possibility.
+There are a few options for functional languages. Lambda calculus languages are the classic choice, but the Forth-like Bitcoin Script with its stack-driven functionality offers another possibility. More farflung options are also considered, such as the logical sequence calculus.
 
 ### Experiment \#1: Bitcoin Script
 
@@ -117,7 +117,7 @@ Finally, it’s *constrained*. Though Bitcoin Script contains an extensive menu 
 
 Removing Bitcoin Script entirely from the blockchain offers another way to enable language updates, but it also raises another issue: Bitcoin Script is currently *locked to blockchains.* Though it may be possible to use it independently, this has not been tested and may raise future issues of compatibility.
 
-Finally, Bitcoin Script is a Forth-derived language, which means that it is *stack-oriented.* This requires a particular type of logic that may make it harder for some people to parse or understand — though this may also be the case for fully functional languages like lambda calculuses.
+Finally, Bitcoin Script is a Forth-derived language, which means that it is *stack-oriented.* This requires a particular type of logic that may make it harder for some people to parse or understand — though this may also be the case for fully functional languages like lambda calculuses or more outré languages like those based on sequence calculus.
 
 ### Experiment \#2: Dex
 
@@ -143,43 +143,41 @@ When the cdr, the car, and the sha256 hash are all evaluated, the sig\_valid fun
 
 Dex also has excellent properties of *efficiency*. The use of a merkle tree helps Dex to enable pruning: unneeded data in an expression can be cut out and replaced with hash digests, making it easier to use lite clients.
 
-Finally, Dex is *upwardly mobile.* smart signatures can be building blocks for creating full smart contract systems, and this is an option that Todd has considering from the start. He even calls Dex one of the “Building Blocks of the State Machine Approach to Consensus”, with its deterministic expressions being states in the state machine[8].
+Finally, Dex is *upwardly mobile.* Smart signatures can be building blocks for creating full smart contract systems, and this is an option that Todd has considering from the start. He even calls Dex one of the “Building Blocks of the State Machine Approach to Consensus”, with its deterministic expressions being states in the state machine[8].
 
-***Disadvantages.*** Lambda Calculus is generally an *unusual* sort of programming language. It doesn’t have the same coding styles or the same programming patterns as more common, imperative languages. This is what enables many of its desired features, but it can also prove a disadvantage to some programmers. Further, languages like Common Lisp and Scheme have long been used in entry-level college computer classes, which may create cognitive biases in some.
+***Disadvantages.*** Lambda Calculus is generally an *unusual* sort of programming language. It doesn’t have the same coding styles or the same programming patterns as more common, imperative languages. This is what enables many of its desired features, but it can also prove a disadvantage to some programmers. Further, languages like Common Lisp and Scheme have long been used in entry-level college computer classes, which may create cognitive biases in students who were confused about the unusual though processes required.
 
 Compared to a well-tested language like Bitcoin Script, Dex is quite *novel.* It’s not just untested, it’s truly experimental. Though there’s great potential for its expansion, it will have to be thoroughly examined before it can reach that potential.
 
 ### Experiment \#3: Crypto Conditions
 
-Crypto-conditions[9] were developed by Stefan Thomas as part of the Interledger[10] project, based on  a requirement for a smart signature data type in the Interledger Protocol's core data model. The protocol relies on one or more ledgers that are involved in an end-to-end transfer being able to put funds on hold pending the fulfillment of a predefined condition. This condition is, in effect, the definition of a smart signature and the fulfillment of that condition is the signature itself.
+Crypto-conditions[9] were developed by Stefan Thomas as part of the Interledger[10] project, based on  a requirement for a smart signature data type in the Interledger Protocol's core data model. The protocol relies on one or more ledgers that are involved in an end-to-end transfer being able to put funds on hold pending the fulfillment of a predefined condition. This condition is, in effect, the definition of a smart signature and the fulfillment of that condition is the signature itself. More information is available from Crypto-condition workshops presented at Interledger[11] and at IETF[12]. In adition, Crypto-Conditions (draft-thomas-crypto-conditions-00) has been submitted as an Internet Draft for candidacy as a standards track RFC[13].
 
-An essential requirement of crypto-conditions is that any implementation _must_ be able to evaluate if it will be able to validate the signature later (fulfillment) just by looking at the signature definition (condition). This allows a ledger to reject a transfer that is using a condition the ledger doesn't support before the end-to-end transfer is fully prepared, avoiding a case where the ledger fails to release the funds upon receipt of the signature (fulfillment) because they are unable to validate it.
+An essential requirement of crypto-conditions is that any implementation _must_ be able to evaluate if it will be able to validate the signature later (fulfillment) just by looking at the signature definition (condition). This allows a ledger to reject a transfer that is using a condition the ledger doesn't support before the end-to-end transfer is fully prepared, avoiding a case where the ledger fails to release the funds upon receipt of the signature (fulfillment) because they are unable to validate it. It also meets the core purpose of the provability requirement for smart signatures, even if it does so by a slightly different manner.
 
-More information is available in Crypto-condition workshops presented at Interledger[11] and at IETF[12]. In adition, Crypto-Conditions (draft-thomas-crypto-conditions-00) has been submitted as an Internet Draft for candidacy as a standards track RFC[13].
+Crypto-conditions define a format for encoding these signature definitions (conditions) and signatures (fulfillments) that incorporates versioning, a feature-requirement bitmask, and a max-fullfilment size requirement. This supports validation of the fulfillment conditions and offers other advantages ...
 
-Crypto-conditions defines a format for encoding these signature definitions (conditions) and signatures (fulfillments) that incorporates versioning, a feature-requirement bitmask, and a max-fullfilment size requirement. This supports validation of fulcillment conditions and offers other advantages ...
+**Adventages.** Crypto-conditions are *deterministic*. Rather than attempting to define a Turing complete signature language crypto-conditions simply combines existing primitives that can be deterministically validated on any platform. As such, the combined result, which uses simple boolean algebra, is also determinisitic across platforms.
 
-**Adventages.** Crypto-conditions are also *deterministic*. Rather than attempting to define a Turing complete signature language crypto-conditions simply combines existing primitives that can be deterministically validated on any platform. As such the combined result (using simple boolean algebra) is also determinisitic across platforms.
+Crypto-conditions are also nicely *compact*. Complex boolean logic trees of hashed conditions can be compacted down to a single hash using Merkle Trees, while a fulfillment can also leave any unfulfilled branches (such as in an m-of-n signature) as hashes. 
 
-They are also nicely *compact*. Complex boolean logic trees of hashed conditions can be compacted down to a single hash using Merkle Trees. This also allows a fulfillment to leave any unfulfilled branches (such as in an m-of-n signature) as hashes. 
-
-**Disadvantages.** Crypto-conditions is another *novel* system that is still undergoing development, while it also offers another relatively simple and *constrained* take on smart signatures.
+**Disadvantages.** Crypto-conditions is another *novel* system that is still undergoing development. It is also somewhat *limited*, since its core concept of holding funds has limited scope (but is a solid starting point).
 
 ### Experiment \#4: Sequent Calculus
 
-Russell O'Connor offers a fourth approach to smart signatures based on sequent calculus. Where many of the previous approaches are higher level programming languages, a sequent calculus approach instead envisions smart signatures as formal proofs, where simpler proofs are functionally combined to ultimately create smarter signatures that can be provably analyzed. 
+Russell O'Connor offers a fourth approach to smart signatures based on sequent calculus. Where many of the previous approaches are higher level programming languages, a sequent calculus approach instead envisions smart signatures as formal proofs, where simpler proofs are functionally combined to ultimately create smarter signatures that can be provably analyzable. 
 
-The science of sequent calculus has been well-studied in recent years[14][15]. It allwos the definition of call-by-name and call-by-value semantics _without using recursion_. Instead of issuing programs alongside proofs, a sequent calculus language can issue programs that _are proofs_. Some expansion is needed to incorporate smart signatures into this model, but that's what O'Connor is currently working on. A full paper on this topic is pending. 
+The science of sequent calculus has been well-studied in recent years[14][15]. It for call-by-name and call-by-value semantics to be defined _without using recursion_. Instead of issuing programs alongside proofs, a sequent calculus language can issue programs that _are proofs_. Some expansion is needed to incorporate smart signatures into this model, but that's what O'Connor is currently working on. A full paper on this topic is pending. 
 
-**Advantages.** The best advantage of a sequent calculus is that it's *provable* and thus secure all the way down. Any functional language has to ultimately depend on the trust of a virtual machine, but a solid sequent calculus approach is instead provably secure down to the metal.
+**Advantages.** The best advantage of a sequent calculus is that it's *provable* and thus secure all the way down. Any functional programming language has to ultimately depend on the trust of a virtual machine, but a solid sequent calculus approach is instead provably secure "down to the metal".
 
-**Disadvantages.** The main disadvantage of a sequent calculus approach is that it's perhaps even more *esoteric* than the lambda calcuses previously described. Certainly, there will be some issues with inspectability as a result. However, it's possible that a language could be built atop the formal proofs that made them more accessible.
+**Disadvantages.** The main disadvantage of a sequent calculus approach is that it's perhaps even more *esoteric* than the state machines and lambda calcuses previously described. There will likely be some issues with inspectability as a result. However, it's possible that a language could be built atop the formal proofs that made them more accessible.
 
 ### The Security of Signatures
 
 As the Ethereum crisis showed us, smart signatures and smart contracts won’t be secure until their programming languages are secured and protected against errors. Resolving this problem is just as important as laying the foundations of a smart signature language. Fortunately, a number of people have been tackling this issue.
 
-Jack Pettersson and Robert Edström of the Chalmers University of Technology have written a thesis on making smart contracts safer[16]. Their approach focuses on Idris, a functional programming language with lambda binding. If uses an advanced type system to offer solutions for several classes of common errors and even provides a backend for Ethereum.
+Jack Pettersson and Robert Edström of the Chalmers University of Technology have written a thesis on making smart contracts safer[16]. Their approach focuses on Idris, a functional programming language with lambda binding. It uses an advanced type system to offer solutions for several classes of common errors and even provides a backend for Ethereum.
 
 More broadly, the SecLang taskforce[17] focuses on security in programming languages. They have been writing papers for decades that analyze security, improve privacy, and remove vulnerabilities. Their approaches could be vital to enabling that same security in smart contract languages.
 
@@ -200,7 +198,7 @@ Figuring out how to create and secure a new language for smart signatures is jus
 Conclusion
 ----------
 
-This paper is meant to be an icebreaker. Though it offers some suggested smart signature use cases and requirements, they’re evolutionary. They were incorporated in part from the Rebooting the Web of Trust I “Smart Signatures” (2015) paper and in part from Peter Todd’s “Dex: Deterministic Predicate Expressions for Smarter Signatures” (2016) paper, then they were expanded and reorganized for this paper. In other words, they’re works in progress that could still benefit from additional input. Similarly, the experiments overviewed in this paper are just two of many. We welcome more possibilities and more discussions.
+This paper is meant to be an icebreaker. Though it offers some suggested smart signature use cases and requirements, they’re evolutionary. They were incorporated in part from the Rebooting the Web of Trust I “Smart Signatures” (2015) paper and in part from Peter Todd’s “Dex: Deterministic Predicate Expressions for Smarter Signatures” (2016) paper, then they were expanded and reorganized for this paper. In other words, they’re works in progress that could still benefit from additional input. Similarly, the experiments overviewed in this paper are just four of many. More possibilities and more discussions are welcome!
 
 Smart signatures are an important tool that could change the way business is done on the internet; they could revamp how we live and even play in electronic communities. As a result, it’s critical that we get them right, that we not repeat the mistakes of The Dao and other sophisticated computer systems that went before us, but which didn’t live up to the rigors of actual usage.
 
