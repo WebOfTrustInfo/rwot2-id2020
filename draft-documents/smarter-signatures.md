@@ -70,11 +70,13 @@ Because smart signatures offer increased complexity over simple signatures, care
 
 4.  ***Deterministic.*** Signatures must always produce the same results, even when run on different machines or different operating systems. This also ensures the security of the signatures, but it focuses on machine-driven security.
 
-5.  ***Bounded.*** Signatures must not be able to exceed appropriate CPU or memory limitations through creation of malicious (or bad) signings. Additionally, enforcement of these limitations must be deterministic. This also ensures the security of the computer system.
+5.  ***Bounded.*** Signatures must not be able to exceed appropriate CPU or memory limitations through creation of malicious (or bad) signings. They need to minimize their size in order to minimize bandwidth and storage costs. Additionally, enforcement of these limitations must be deterministic. This also ensures the security of the computer system.
 
 6.  ***Efficient.*** Though we place no requirements on the difficulty of creating signatures, the cost of verifying them should be very low. This also ensures the stability of the computer system.
 
-A smart signature system that supports the use cases described above and that meets the requirements listed here would add powerful tools to the digital world by meeting the needs of the financial and business worlds.
+One other element that should be considered is ***privacy***. There is ultimately a trade-off between flexibility and fungibility in smart signature design: many of the functions that are added to smart signatures in turn require participants to reveal more about who they are, reducing the substitutability of the persons involved in the signatures and any resources being signed. So, even if privacy is not a _requirement_, it should be a _consideration_; any decisions about the level of privacy in a signature system should be known and purposeful.
+
+A smart signature system that supports the use cases described above, that meets the requirements listed here, and that considers its security implications, would add powerful tools to the digital world by meeting the needs of the financial and business worlds.
 
 Experimenting with Smart Signatures
 -----------------------------------
