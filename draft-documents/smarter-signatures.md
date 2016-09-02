@@ -161,27 +161,23 @@ Crypto-conditions define a format for encoding these signature definitions (cond
 
 Crypto-conditions are also nicely *compact*. Complex boolean logic trees of hashed conditions can be compacted down to a single hash using Merkle Trees, while a fulfillment can also leave any unfulfilled branches (such as in an m-of-n signature) as hashes. 
 
-**Disadvantages.** Crypto-conditions is another *novel* system that is still undergoing development. It is also somewhat *limited*, since its core concept of holding funds has limited scope (but is a solid starting point).
+**Disadvantages.** Crypto-conditions is another *novel* system that is still undergoing development.
 
 ### Experiment \#4: Sequent Calculus
 
-Russell O'Connor offers a fourth approach to smart signatures based on sequent calculus. Where many of the previous approaches are higher level programming languages, a sequent calculus approach instead envisions smart signatures as formal proofs, where simpler proofs are functionally combined to ultimately create smarter signatures that can be provably analyzable. 
+Russell O'Connor offers a fourth approach to smart signatures based on sequent calculus. This approach  envisions smart signatures with formal proofs, where simpler proofs are functionally combined to ultimately create smarter signatures that are analyzable formally. The type system limits the sequent calculus to defining only finitary functions with bounded complexity, while the language comes with formal semantics that are easy to define in software proof assistants. A full paper on this topic is pending.
 
-The science of sequent calculus has been well-studied in recent years[14][15]. It for call-by-name and call-by-value semantics to be defined _without using recursion_. Instead of issuing programs alongside proofs, a sequent calculus language can issue programs that _are proofs_. Some expansion is needed to incorporate smart signatures into this model, but that's what O'Connor is currently working on. A full paper on this topic is pending. 
-
-**Advantages.** The best advantage of a sequent calculus is that it's *provable* and thus secure all the way down. Any functional programming language has to ultimately depend on the trust of a virtual machine, but a solid sequent calculus approach is instead provably secure "down to the metal".
+**Advantages.** The best advantage of a sequent calculus is that the formal semantics can be *formally reasoned* about, and programs can be proved correct using software proof assistants.  Furthermore, the interpreter for the sequent calculus can also be proved correct, potentially allowing for an end-to-end proof of correctness "down to the metal".
 
 **Disadvantages.** The main disadvantage of a sequent calculus approach is that it's perhaps even more *esoteric* than the state machines and lambda calcuses previously described. There will likely be some issues with inspectability as a result. However, it's possible that a language could be built atop the formal proofs that made them more accessible.
 
-### The Security of Signatures
+### Lessons Learned from Other Places
 
-As the Ethereum crisis showed us, smart signatures and smart contracts won’t be secure until their programming languages are secured and protected against errors. Resolving this problem is just as important as laying the foundations of a smart signature language. Fortunately, a number of people have been tackling this issue.
+There are numerous lessons that can be learned for smart signatures from other places — particularly lessons related to security. As the Ethereum crisis showed us, smart signatures and smart contracts won’t be secure until their programming languages are secured and protected against errors. Resolving this problem is just as important as laying the foundations of a smart signature language. Fortunately, a number of people have been tackling this issue.
 
-Jack Pettersson and Robert Edström of the Chalmers University of Technology have written a thesis on making smart contracts safer[16]. Their approach focuses on Idris, a functional programming language with lambda binding. It uses an advanced type system to offer solutions for several classes of common errors and even provides a backend for Ethereum.
+Jack Pettersson and Robert Edström of the Chalmers University of Technology have written a thesis on making smart contracts safer[16]. Their approach focuses on Idris, a functional programming language with lambda binding. It uses an advanced type system to offer solutions for several classes of common errors and even provides a backend for Ethereum. More broadly, the SecLang taskforce[17] focuses on security in programming languages. They have been writing papers for decades that analyze security, improve privacy, and remove vulnerabilities. Their approaches could be vital to enabling that same security in smart contract languages. Both Chalmers and SecLang point us toward options for safety and security in smart signatures languages of all sorts; there are doubtless other possibilities.
 
-More broadly, the SecLang taskforce[17] focuses on security in programming languages. They have been writing papers for decades that analyze security, improve privacy, and remove vulnerabilities. Their approaches could be vital to enabling that same security in smart contract languages.
-
-Both Chalmers and SecLang point us toward options for safety and security in smart signatures languages of all sorts; there are doubtless other possibilities.
+However, many of these approaches also have their origins in other fields. Bitcoin and Interledger both have strong roots in the internet community and can offer lessons on how existing payment networks will need to interact with new smart contracts. Meanwhile, existing papers on sequent calculus[14][15] can offer a foundation for O'Connor's unique and innovative approach. The past is prologue, but its lessons learned are important for moving into the future.
 
 ### Open Questions
 
