@@ -121,7 +121,7 @@ Finally, Bitcoin Script is a Forth-derived language, which means that it is *sta
 
 ### Experiment \#2: Dex
 
-Peter Todd is working on another possible system for smart signatures, one that he calls Dex, a system of deterministic predicate expressions[7]. Much as in Bitcoin Script, Dex’s predicate expressions evaluate simply to either true or false results. However, the other part of Dex’s name is just as important: it’s deterministic, guaranteed to always return the same result for a specific signature and environment.
+Peter Todd is working on another possible system for smart signatures, one that he calls Dex, a system of deterministic predicate expressions[7]. Much like Bitcoin Script, Dex’s predicate expressions evaluate simply to either true or false results. However, the other part of Dex’s name is just as important: it’s deterministic, guaranteed to always return the same result for a specific signature and environment.
 
 Dex also more fully embraces functional programming: it’s built using lambda calculus. As with Lisp, atoms of numbers, strings, symbols, and cells are recursively built up into s-expressions. (In other words, Dex contains parenthesized lists that regularize and order the evaluation of functions.) These s-expressions are then merkelized (hashed), producing unique digests.
 
