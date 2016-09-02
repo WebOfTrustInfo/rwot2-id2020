@@ -91,7 +91,7 @@ A few different possibilities are discussed below. They should be considered sta
 
 Functional programming languages are a good choice for the foundation of smart signatures because they meet three of the suggested requirements: they’re composable, they’re provable, and they’re deterministic. The composability and provability emerge from the fact that functional programming languages are built of pure mathematical functions; it’s easy to put them together to create more complex systems and it’s easy to prove what they do. The determinism emerges from the fact that functional programming languages do not support state or mutable data; they guarantee that the same inputs will always produce the same outputs.
 
-There are a few options for functional languages. Lambda calculus languages are the classic choice, but the Forth-like Bitcoin Script with its stack-driven functionality offers another possibility. More farflung options are also considered, such as the logical sequence calculus.
+There are a few options for functional languages. Lambda calculus languages are the classic choice, but the Forth-like Bitcoin Script with its stack-driven functionality offers another possibility. More farflung options are also considered, such as the logical sequent calculus.
 
 ### Experiment \#1: Bitcoin Script
 
@@ -117,7 +117,7 @@ Finally, it’s *constrained*. Though Bitcoin Script contains an extensive menu 
 
 Removing Bitcoin Script entirely from the blockchain offers another way to enable language updates, but it also raises another issue: Bitcoin Script is currently *locked to blockchains.* Though it may be possible to use it independently, this has not been tested and may raise future issues of compatibility.
 
-Finally, Bitcoin Script is a Forth-derived language, which means that it is *stack-oriented.* This requires a particular type of logic that may make it harder for some people to parse or understand — though this may also be the case for fully functional languages like lambda calculuses or more outré languages like those based on sequence calculus.
+Finally, Bitcoin Script is a Forth-derived language, which means that it is *stack-oriented.* This requires a particular type of logic that may make it harder for some people to parse or understand — though this may also be the case for fully functional languages like lambda calculuses or more outré languages like those based on sequent calculus.
 
 ### Experiment \#2: Dex
 
