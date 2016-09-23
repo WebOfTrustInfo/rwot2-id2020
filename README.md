@@ -39,6 +39,7 @@ In advance of the ID 2020 Design DesignShop, all participants were requested to 
 * [Identity Management IdSec](topics-and-advance-readings/PM_15_026_FIN2_IdSEC_160513.pdf) — by Erik Anderson
 * [Trust-i-ness](topics-and-advance-readings/Trust-i-ness.md) — by Kaliya "Identity Woman"
 * [ID2020 - Self-Sovereign Identity] (topics-and-advance-readings/Rebooting%20Web%20of%20Trust%20Position%20MindMap%20-%20pre-reading%20DRAFT%20ID2020%20Summit%202016.pdf) - by Patrick Deegan
+* [Identity and decentralised Communication] - ( https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/Identity%20and%20decentralised%20communications.md ) - By Harsh Patel
 
 ### 2015 - Past topic papers submitted:
 
