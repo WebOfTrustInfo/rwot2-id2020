@@ -194,21 +194,21 @@ It has also been postulated that JWT-style digital signatures could be
 encapsulated in Linked Data Signatures producing a signature format that looks 
 like the following:
 
-"signature": {
-    "type": "Jwt2017",
-    "signatureValue":    "
-eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Rtdi\n
-CJhdWQiOiJ3d3cuZXhhbXBsZS5jb20iLCJzdWIiOiJkaWQ6ZWJmZWIxZjcxMmVi\n
-YzZmMWMyNzZlMTJlYzIxIiwiZW50aXR5Q3JlZGVudGlhbCI6eyJAY29udGV4dCI\n
-6Imh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvdjEiLCJpZCI6Imh0dHA6Ly9leG\n
-FtcGxlLmdvdi9jcmVkZW50aWFscy8zNzMyIiwidHlwZSI6WyJDcmVkZW50aWFsI\n
-iwiUHJvb2ZPZkFnZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiaHR0cHM6Ly9kbXYu\n
-ZXhhbXBsZS5nb3YiLCJpc3N1ZWQiOiIyMDEwLTAxLTAxIiwiY2xhaW0iOnsiaWQ\n
-iOiJkaWQ6ZWJmZWIxZjcxMmViYzZmMWMyNzZlMTJlYzIxIiwiYWdlT3ZlciI6Mj\n
-F9fX0.LwqH58NasGPeqtTxT632YznKDuxEeC59gMAe9uueb4pX_lDQd2_UyUcc6\n
-NW1E3qxvYlps4hH_YzzTuXB_R1A9UHXq4zyiz2sMtZWyJkUL1FERclT2CypX5e1\n
-fO4zVES_8uaNoinim6VtS76x_2VmOMQ_GcqXG3iaLGVJHCNlCu4"
-  }
+    "signature": {
+        "type": "Jwt2017",
+        "signatureValue":    "
+    eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Rtdi\n
+    CJhdWQiOiJ3d3cuZXhhbXBsZS5jb20iLCJzdWIiOiJkaWQ6ZWJmZWIxZjcxMmVi\n
+    YzZmMWMyNzZlMTJlYzIxIiwiZW50aXR5Q3JlZGVudGlhbCI6eyJAY29udGV4dCI\n
+    6Imh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvdjEiLCJpZCI6Imh0dHA6Ly9leG\n
+    FtcGxlLmdvdi9jcmVkZW50aWFscy8zNzMyIiwidHlwZSI6WyJDcmVkZW50aWFsI\n
+    iwiUHJvb2ZPZkFnZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjoiaHR0cHM6Ly9kbXYu\n
+    ZXhhbXBsZS5nb3YiLCJpc3N1ZWQiOiIyMDEwLTAxLTAxIiwiY2xhaW0iOnsiaWQ\n
+    iOiJkaWQ6ZWJmZWIxZjcxMmViYzZmMWMyNzZlMTJlYzIxIiwiYWdlT3ZlciI6Mj\n
+    F9fX0.LwqH58NasGPeqtTxT632YznKDuxEeC59gMAe9uueb4pX_lDQd2_UyUcc6\n
+    NW1E3qxvYlps4hH_YzzTuXB_R1A9UHXq4zyiz2sMtZWyJkUL1FERclT2CypX5e1\n
+    fO4zVES_8uaNoinim6VtS76x_2VmOMQ_GcqXG3iaLGVJHCNlCu4"
+      }
 
 Doing so would require new JSON Normalization Algorithm specification and a 
 Signature Suite with the following properties:
