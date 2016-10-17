@@ -3,7 +3,7 @@ This is a current list of white papers and specs that are expected to come out o
 |                        Paper                        |   Lead   |    Status   |  Agent  |                            Link                           |       Notes        |
 |-----------------------------------------------------|----------|-------------|---------|-----------------------------------------------------------|--------------------|
 | ***Chainpoint / Proof-of-X***                       | Wayne V. | Remote Website    |  | [link](http://www.chainpoint.org/)                                                         | *Final* |
-| ***Identity Containers & Relations in DID***        | Adrian   | Final Draft    |  | [link](../final-documents/requirements-for-dids.pdf)                                                         |  *Final*                  |
+| ***Identity Containers & Relations in DID***        | Adrian   | Final Draft    |  | [link](../final-documents/physician-patient-relationship.pdf)                                                         |  *Final*                  |
 | ***Identity Crisis***                       | Joe A.   | Final Draft    |  | [link](../final-documents/identity-crisis.pdf)                                                         | *Final*     |
 | ***Protecting Digital Identity in Developing Countries***                         | Wayne H. | Final Draft    |  | [link](../final-documents/protecting-digital-identities-in-developing-countries.pdf)  | *Final*                                                       |  |
 | ***Requirements for DIDs***                                           | Drummond | Final Draft    |  | [link](../final-documents/requirements-for-dids.pdf) |*Final* |
