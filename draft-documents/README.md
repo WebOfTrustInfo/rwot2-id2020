@@ -2,17 +2,17 @@ This is a current list of white papers and specs that are expected to come out o
 
 |                        Paper                        |   Lead   |    Status   |  Agent  |                            Link                           |       Notes        |
 |-----------------------------------------------------|----------|-------------|---------|-----------------------------------------------------------|--------------------|
-| ***Chainpoint / Proof-of-X***                       | Wayne V. | Drafting    | Authors | [link](http://www.chainpoint.org/)                                                         | *Final* |
-| ***Identity Containers & Relations in DID***        | Adrian   | Drafting    | Authors | -                                                         |  Commenting                  |
-| ***Identity Crisis***                       | Joe A.   | Edited Draft    | Authors | [link](../final-documents/identity-crisis.pdf)                                                         | *Final*     |
-| ***Protecting Digital Identity in Developing Countries***                         | Wayne H. | Approved Draft    | Editor | [link](protecting-digital-identities-in-developing-countries.md)                                                         |  |
-| ***Requirements for DIDs***                                           | Drummond | Approved Draft    | Editor | [link](requirements-for-dids.md)                                                         |  |
-| ***Smarter Signatures*** | Christopher A. | Approved Draft | Editor | [link](smarter-signatures.md) | |
-| ***HD Keys***                                       | Kiara    | Edited Draft    | Author | [link](hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity.md)                                                         |                    |
-| ***The Insecurity of Charging for Authentication*** | Greg S.  | Approved Draft | Editor | [link](the-insecurity-of-charging-for-security-and-how-it-relates-to-decentralized-identifiers.md) |                    |
-| ***Identity Graphs***                               | Markus   | Drafting    | Authors | -                                                         | Update: 6/10 |
+| ***Chainpoint / Proof-of-X***                       | Wayne V. | Remote Website    |  | [link](http://www.chainpoint.org/)                                                         | *Final* |
+| ***Identity Containers & Relations in DID***        | Adrian   | Final Draft    |  | [link](../final-documents/requirements-for-dids.pdf)                                                         |  *Final*                  |
+| ***Identity Crisis***                       | Joe A.   | Final Draft    |  | [link](../final-documents/identity-crisis.pdf)                                                         | *Final*     |
+| ***Protecting Digital Identity in Developing Countries***                         | Wayne H. | Final Draft    |  | [link](../final-documents/protecting-digital-identities-in-developing-countries.pdf)  | *Final*                                                       |  |
+| ***Requirements for DIDs***                                           | Drummond | Final Draft    |  | [link](../final-documents/requirements-for-dids.pdf) |                                                          | *Final* |
+| ***Smarter Signatures*** | Christopher A. | Final Draft |  | [link](final-documents/smarter-signatures.pdf) | *Final*|
+| ***HD Keys***                                       | Kiara    | Edited Draft    | Author | [link](hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity.md)                                                         |  Being Revised                  |
+| ***The Insecurity of Charging for Authentication*** | Greg S.  | Final Draft | Editor | [link](the-insecurity-of-charging-for-security-and-how-it-relates-to-decentralized-identifiers.md) |                    |
+| ***Identity Graphs***                               | Markus   | Drafting    | Authors | -                                                         | Unwritten |
 | ***Self-Sovereign Identity Architecture Updates***  | Dave C.  | Drafting    | Authors | -                                                         | Pending Changes                    |
-| ***VCTF Use Cases***  | Joe A..  | Drafting    | Authors | -                                                         |  Comments on 6/22                    |
+| ***VCTF Use Cases***  | Joe A..  | Drafting    | Authors | -                                                         |                      |
 | ***Finding Identity***  | Marta..  | Drafting    | Authors | -                                                         |  Early stage                    |
 | ***OpenTimestamps***  | Peter T..  | Drafting    | Authors | [link](https://petertodd.org/2016/opentimestamps-announcement) |  Pending reformat from blog post |
 
