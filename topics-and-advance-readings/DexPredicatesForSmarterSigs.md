@@ -55,7 +55,7 @@ expression is doing. This implies that raw expressions be relatively high
 level.
 
 
-## Mereklized S-expressions
+## Merkelized S-expressions
 
 We follow the Lisp tradition and represent both expressions and data with
 merkelized (hashed) S-expressions (msexprs) defined recursively from atoms such
