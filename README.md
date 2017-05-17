@@ -41,7 +41,6 @@ The design workshop successfully completed its five papers, which are now all av
 
 > A look at uses and requirements of next-generation smart signature systems.
 
-
 ## Complete Rebooting the Web of Trust Listing
 
 A different repository is available for each of the Rebooting the Web of Trust design workshops:
