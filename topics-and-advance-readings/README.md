@@ -9,7 +9,7 @@ In advance of the [ID 2020 Design DesignShop](https://github.com/WebOfTrustInfo/
 The topic papers submitted are:
 
 
-* [A Double Edge Sword of Having an Identity](topics-and-advance-readings/double_edged_identity.md) — by Marta Piekarska \<marta@blockstream.io\>
+* [A Double Edge Sword of Having an Identity](/topics-and-advance-readings/double_edged_identity.md) — by Marta Piekarska \<marta@blockstream.io\>
 * [A Self-Sovereign Identity Architecture](topics-and-advance-readings/a-self-sovereign-identity-architecture.pdf) - by Manu Sporny *[@msporny](https://twitter.com/manusporny?lang=en)* and David Longley
 * [Blockstack: Design and Implementation of a Global Naming System with Blockchains](https://blockstack.org/blockstack.pdf) - by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>* and Jude Nelson *[@judecnelson](https://twitter.com/judecnelson) \<jude@blockstack.com\>* and Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@blockstack.com\>*
 * [From Identity to Refugee Status Determination](topics-and-advance-readings/identity_to_refugee_status_determination.md) — by Susan R. Ramonat  \<SRamonat@seic.com\>
