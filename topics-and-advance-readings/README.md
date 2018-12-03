@@ -10,29 +10,29 @@ The topic papers submitted are:
 
 
 * [A Double Edge Sword of Having an Identity](/topics-and-advance-readings/double_edged_identity.md) — by Marta Piekarska \<marta@blockstream.io\>
-* [A Self-Sovereign Identity Architecture](topics-and-advance-readings/a-self-sovereign-identity-architecture.pdf) - by Manu Sporny *[@msporny](https://twitter.com/manusporny?lang=en)* and David Longley
+* [A Self-Sovereign Identity Architecture](/topics-and-advance-readings/a-self-sovereign-identity-architecture.pdf) - by Manu Sporny *[@msporny](https://twitter.com/manusporny?lang=en)* and David Longley
 * [Blockstack: Design and Implementation of a Global Naming System with Blockchains](https://blockstack.org/blockstack.pdf) - by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>* and Jude Nelson *[@judecnelson](https://twitter.com/judecnelson) \<jude@blockstack.com\>* and Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@blockstack.com\>*
-* [From Identity to Refugee Status Determination](topics-and-advance-readings/identity_to_refugee_status_determination.md) — by Susan R. Ramonat  \<SRamonat@seic.com\>
-* [Peer Attestation of Identity in the Real World](topics-and-advance-readings/PeerAttestationofIdentity.pdf) — by Dr Shaun Conway & Lohan Spies
-* [Sovereign Identity Namespaces](topics-and-advance-readings/SovereignIdentityNamespaces.pdf) — by Drummond Reed [@DrummondReed](https://twitter.com/drummondreed?lang=en) \<drummond@respectnetwork.com\>
-* [Identity System Essentials](topics-and-advance-readings/Identity-System-Essentials.pdf) — by Samuel Smith and Dmitry Khovratovich
-* [Decentralized Identifiers (DIDs) and Decentralized Identity Management (DIDM)](topics-and-advance-readings/DID-Whitepaper.md) — by Les Chasen
-* [“Immutable Me” - A Discussion Paper Exploring Data Provenance To Enable New Value Chains](topics-and-advance-readings/immutable-me.pdf) - by *George Samman [@sammantic](https://twitter.com/sammantic) \<[George.Samman@meeco.me](mailto:George.Samman@meeco.me)\>  and Katryna Dow [@katrynadow](https://twitter.com/katrynadow) \<[Katryna.Dow@meeco.me](mailto:Katryna.Dow@meeco.me)\>*
-* [No Secure Protocol = No Sovereign Identity](topics-and-advance-readings/no-secure-protocol-equals-no-sovereign-identity.md) - by Greg Slepak *[@taoeffect](https://twitter.com/taoeffect) \<hi@okturtles.com\>*
-* [Questions around key management for digital ID systems](topics-and-advance-readings/questions_around_key_management.md) - by Christian Lundkvist *[@chrislundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net\>* and Rouven Heck *[@rh7](https://twitter.com/rh7) \<rouven.heck@consensys.net\>*
-* [The Path to Self-Sovereign Identity](topics-and-advance-readings/the-path-to-self-sovereign-identity.md) — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
-* [Distibuted Identity Management - Verifiable Claims Exchange Via Agents](topics-and-advance-readings/DistibutedIdentityManagement-VerifiableClaimsExchangeViaAgents.pdf) — by Gary Zimmerman
-* [Blockstack Rules and Support for Multiple Blockchains](topics-and-advance-readings/blockstack-rules-and-multiple-blockchains.md) — by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>
-* [Plurality of Provenance in Distributed Identity](topics-and-advance-readings/Plurality%20of%20Provenance%20in%20Distributed%20Identity.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
-* [Identity is a Phenomenon, Not a Property](topics-and-advance-readings/Identity%20is%20a%20Phenomenon%20Not%20a%20Property.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
-* [Dex: Deterministic Predicate Expressions for Smarter Signatures](topics-and-advance-readings/DexPredicatesForSmarterSigs.md) — by Peter Todd
-* [Scaling a BFT Consensus Protocol for Identity](topics-and-advance-readings/scaling-a-bft-consensus-protocol-for-identity.md) — by Jason Law & Lovesh Harchandani
-* [XDI Graphs in IPFS](topics-and-advance-readings/XDI-Graphs-in-IPFS.md) — by Markus Sabadello
-* [Replace Blockchain with DLT (Distributed Ledger Technology)](topics-and-advance-readings/Erik Anderson-USE CASE story.md) — by Erik Anderson
-* [Blockchain For Capital Markets](topics-and-advance-readings/Blockchain_for_capital_markets.pdf) — by Erik Anderson
-* [Identity Management IdSec](topics-and-advance-readings/PM_15_026_FIN2_IdSEC_160513.pdf) — by Erik Anderson
-* [Trust-i-ness](topics-and-advance-readings/Trust-i-ness.md) — by Kaliya "Identity Woman"
-* [ID2020 - Self-Sovereign Identity](topics-and-advance-readings/Rebooting%20Web%20of%20Trust%20Position%20MindMap%20-%20pre-reading%20DRAFT%20ID2020%20Summit%202016.pdf) - by Patrick Deegan
+* [From Identity to Refugee Status Determination](/topics-and-advance-readings/identity_to_refugee_status_determination.md) — by Susan R. Ramonat  \<SRamonat@seic.com\>
+* [Peer Attestation of Identity in the Real World](/topics-and-advance-readings/PeerAttestationofIdentity.pdf) — by Dr Shaun Conway & Lohan Spies
+* [Sovereign Identity Namespaces](/topics-and-advance-readings/SovereignIdentityNamespaces.pdf) — by Drummond Reed [@DrummondReed](https://twitter.com/drummondreed?lang=en) \<drummond@respectnetwork.com\>
+* [Identity System Essentials](/topics-and-advance-readings/Identity-System-Essentials.pdf) — by Samuel Smith and Dmitry Khovratovich
+* [Decentralized Identifiers (DIDs) and Decentralized Identity Management (DIDM)](/topics-and-advance-readings/DID-Whitepaper.md) — by Les Chasen
+* [“Immutable Me” - A Discussion Paper Exploring Data Provenance To Enable New Value Chains](/topics-and-advance-readings/immutable-me.pdf) - by *George Samman [@sammantic](https://twitter.com/sammantic) \<[George.Samman@meeco.me](mailto:George.Samman@meeco.me)\>  and Katryna Dow [@katrynadow](https://twitter.com/katrynadow) \<[Katryna.Dow@meeco.me](mailto:Katryna.Dow@meeco.me)\>*
+* [No Secure Protocol = No Sovereign Identity](/topics-and-advance-readings/no-secure-protocol-equals-no-sovereign-identity.md) - by Greg Slepak *[@taoeffect](https://twitter.com/taoeffect) \<hi@okturtles.com\>*
+* [Questions around key management for digital ID systems](/topics-and-advance-readings/questions_around_key_management.md) - by Christian Lundkvist *[@chrislundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net\>* and Rouven Heck *[@rh7](https://twitter.com/rh7) \<rouven.heck@consensys.net\>*
+* [The Path to Self-Sovereign Identity](/topics-and-advance-readings/the-path-to-self-sovereign-identity.md) — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
+* [Distibuted Identity Management - Verifiable Claims Exchange Via Agents](/topics-and-advance-readings/DistibutedIdentityManagement-VerifiableClaimsExchangeViaAgents.pdf) — by Gary Zimmerman
+* [Blockstack Rules and Support for Multiple Blockchains](/topics-and-advance-readings/blockstack-rules-and-multiple-blockchains.md) — by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>
+* [Plurality of Provenance in Distributed Identity](/topics-and-advance-readings/Plurality%20of%20Provenance%20in%20Distributed%20Identity.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
+* [Identity is a Phenomenon, Not a Property](/topics-and-advance-readings/Identity%20is%20a%20Phenomenon%20Not%20a%20Property.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
+* [Dex: Deterministic Predicate Expressions for Smarter Signatures](/topics-and-advance-readings/DexPredicatesForSmarterSigs.md) — by Peter Todd
+* [Scaling a BFT Consensus Protocol for Identity](/topics-and-advance-readings/scaling-a-bft-consensus-protocol-for-identity.md) — by Jason Law & Lovesh Harchandani
+* [XDI Graphs in IPFS](/topics-and-advance-readings/XDI-Graphs-in-IPFS.md) — by Markus Sabadello
+* [Replace Blockchain with DLT (Distributed Ledger Technology)](/topics-and-advance-readings/Erik Anderson-USE CASE story.md) — by Erik Anderson
+* [Blockchain For Capital Markets](/topics-and-advance-readings/Blockchain_for_capital_markets.pdf) — by Erik Anderson
+* [Identity Management IdSec](/topics-and-advance-readings/PM_15_026_FIN2_IdSEC_160513.pdf) — by Erik Anderson
+* [Trust-i-ness](/topics-and-advance-readings/Trust-i-ness.md) — by Kaliya "Identity Woman"
+* [ID2020 - Self-Sovereign Identity](/topics-and-advance-readings/Rebooting%20Web%20of%20Trust%20Position%20MindMap%20-%20pre-reading%20DRAFT%20ID2020%20Summit%202016.pdf) - by Patrick Deegan
 * [Identity and decentralised Communication]( https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/Identity%20and%20decentralised%20communications.md ) - By Harsh Patel
 
 
