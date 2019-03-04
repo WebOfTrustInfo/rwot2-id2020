@@ -28,12 +28,12 @@ The topic papers submitted are:
 * [Dex: Deterministic Predicate Expressions for Smarter Signatures](/topics-and-advance-readings/DexPredicatesForSmarterSigs.md) — by Peter Todd
 * [Scaling a BFT Consensus Protocol for Identity](/topics-and-advance-readings/scaling-a-bft-consensus-protocol-for-identity.md) — by Jason Law & Lovesh Harchandani
 * [XDI Graphs in IPFS](/topics-and-advance-readings/XDI-Graphs-in-IPFS.md) — by Markus Sabadello
-* [Replace Blockchain with DLT (Distributed Ledger Technology)](/topics-and-advance-readings/Erik Anderson-USE CASE story.md) — by Erik Anderson
+* [Replace Blockchain with DLT (Distributed Ledger Technology)](/topics-and-advance-readings/Erik%20Anderson-USE%20CASE%20story.md) — by Erik Anderson
 * [Blockchain For Capital Markets](/topics-and-advance-readings/Blockchain_for_capital_markets.pdf) — by Erik Anderson
 * [Identity Management IdSec](/topics-and-advance-readings/PM_15_026_FIN2_IdSEC_160513.pdf) — by Erik Anderson
 * [Trust-i-ness](/topics-and-advance-readings/Trust-i-ness.md) — by Kaliya "Identity Woman"
 * [ID2020 - Self-Sovereign Identity](/topics-and-advance-readings/Rebooting%20Web%20of%20Trust%20Position%20MindMap%20-%20pre-reading%20DRAFT%20ID2020%20Summit%202016.pdf) - by Patrick Deegan
-* [Identity and decentralised Communication]( https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/Identity%20and%20decentralised%20communications.md ) - By Harsh Patel
+* [Identity and decentralised Communication]( https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/Identity%20and%20decentralised%20communications.md) - By Harsh Patel
 
 
 ### 2015 - Past topic papers submitted:
