@@ -35,6 +35,19 @@ The topic papers submitted are:
 * [ID2020 - Self-Sovereign Identity](/topics-and-advance-readings/Rebooting%20Web%20of%20Trust%20Position%20MindMap%20-%20pre-reading%20DRAFT%20ID2020%20Summit%202016.pdf) - by Patrick Deegan
 * [Identity and decentralised Communication](https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/Identity%20and%20decentralised%20communications.md) - By Harsh Patel
 
+---
+
+* [Chime National Patent ID Challenge](/topics-and-advance-readings/CHIMENationalPatientIDChallenge.pdf)
+* [Usability and Multiplicity in Global Identity Management](/topics-and-advance-readings/Crocker-ID-Usability-Multiplicity.md) - by D. Crocker ~ \<[dcrocker@bbiw.net](mailto:dcrocker@bbiw.net)\>
+* [Decentralized Identity Satoshi Style](/topics-and-advance-readings/Decentralized-Identity-Satoshi-Style) - by Darrell Duane - \<[darrell@idi.io](mailto:darrell@idi.io)\>
+* [Declaration of Identity - Printed.pdf](https://github.com/infominer33/rwot2-id2020/blob/master/topics-and-advance-readings/Declaration%20of%20Identity%20-%20Printed.pdf)
+* [Identities for Moving Things](/topics-and-advance-readings/IdentitiesForMovingThings.md) - by Daniel Ford - \<[dan@keoja.com](mailto:dan@keoja.com)\>
+* [Legalizing Identity Protocols for the United Nations 16.9](/topics-and-advance-readings/Legalizing-Identity-Protocols-United-Nations.md) 
+* [Personal Levels of Assurance (PLOA)](/topics-and-advance-readings/PLOA%20White%20Paper%20-%20v1.01.pdf) - An AT&T Whitepaper on Assurance - by J. Oliver Glasgow and Jeff Dogen, Kennie Kwong, David Chen, Johannes Jaskolski, Kevin Castellow, Dan Druta
+* [Clues](/topics-and-advance-readings/clues.md) - something that serves to guide or direct in the solution of a problem or mystery. by Nicola Greco
+
+
+
 
 ### 2015 - Past topic papers submitted:
 
