@@ -10,8 +10,8 @@ The topic papers submitted are:
 
 
 * [A Double Edge Sword of Having an Identity](/topics-and-advance-readings/double_edged_identity.md) — by Marta Piekarska \<marta@blockstream.io\>
-* [A Self-Sovereign Identity Architecture](/topics-and-advance-readings/a-self-sovereign-identity-architecture.pdf) - by Manu Sporny *[@msporny](https://twitter.com/manusporny?lang=en)* and David Longley
-* [Blockstack: Design and Implementation of a Global Naming System with Blockchains](https://blockstack.org/blockstack.pdf) - by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>* and Jude Nelson *[@judecnelson](https://twitter.com/judecnelson) \<jude@blockstack.com\>* and Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@blockstack.com\>*
+* [A Self-Sovereign Identity Architecture](/topics-and-advance-readings/a-self-sovereign-identity-architecture.pdf) — by Manu Sporny *[@msporny](https://twitter.com/manusporny?lang=en)* and David Longley
+* [Blockstack: Design and Implementation of a Global Naming System with Blockchains](https://blockstack.org/blockstack.pdf) — by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>* and Jude Nelson *[@judecnelson](https://twitter.com/judecnelson) \<jude@blockstack.com\>* and Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@blockstack.com\>*
 * [From Identity to Refugee Status Determination](/topics-and-advance-readings/identity_to_refugee_status_determination.md) — by Susan R. Ramonat  \<SRamonat@seic.com\>
 * [Peer Attestation of Identity in the Real World](/topics-and-advance-readings/PeerAttestationofIdentity.pdf) — by Dr Shaun Conway & Lohan Spies
 * [Sovereign Identity Namespaces](/topics-and-advance-readings/SovereignIdentityNamespaces.pdf) — by Drummond Reed [@DrummondReed](https://twitter.com/drummondreed?lang=en) \<drummond@respectnetwork.com\>
@@ -32,20 +32,20 @@ The topic papers submitted are:
 * [Blockchain For Capital Markets](/topics-and-advance-readings/Blockchain_for_capital_markets.pdf) — by Erik Anderson
 * [Identity Management IdSec](/topics-and-advance-readings/PM_15_026_FIN2_IdSEC_160513.pdf) — by Erik Anderson
 * [Trust-i-ness](/topics-and-advance-readings/Trust-i-ness.md) — by Kaliya "Identity Woman"
-* [ID2020 - Self-Sovereign Identity](/topics-and-advance-readings/Rebooting%20Web%20of%20Trust%20Position%20MindMap%20-%20pre-reading%20DRAFT%20ID2020%20Summit%202016.pdf) - by Patrick Deegan
-* [Identity and decentralised Communication](https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/Identity%20and%20decentralised%20communications.md) - By Harsh Patel
+* [ID2020 - Self-Sovereign Identity](/topics-and-advance-readings/Rebooting%20Web%20of%20Trust%20Position%20MindMap%20-%20pre-reading%20DRAFT%20ID2020%20Summit%202016.pdf) — by Patrick Deegan
+* [Identity and decentralised Communication](https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/Identity%20and%20decentralised%20communications.md) — by Harsh Patel
 
 ---
 
 * [Chime National Patent ID Challenge](/topics-and-advance-readings/CHIMENationalPatientIDChallenge.pdf)
-* [Usability and Multiplicity in Global Identity Management](/topics-and-advance-readings/Crocker-ID-Usability-Multiplicity.md) - by D. Crocker ~ \<[dcrocker@bbiw.net](mailto:dcrocker@bbiw.net)\>
+* [Usability and Multiplicity in Global Identity Management](/topics-and-advance-readings/Crocker-ID-Usability-Multiplicity.md) — by D. Crocker ~ \<[dcrocker@bbiw.net](mailto:dcrocker@bbiw.net)\>
 * [Decentralized Identity Satoshi Style](/topics-and-advance-readings/Decentralized-Identity-Satoshi-Style) - by Darrell Duane - \<[darrell@idi.io](mailto:darrell@idi.io)\>
 * [Declaration of Identity - Printed.pdf](https://github.com/infominer33/rwot2-id2020/blob/master/topics-and-advance-readings/Declaration%20of%20Identity%20-%20Printed.pdf)
 * [Identities for Moving Things](/topics-and-advance-readings/IdentitiesForMovingThings.md) - by Daniel Ford - \<[dan@keoja.com](mailto:dan@keoja.com)\>
 * [Legalizing Identity Protocols for the United Nations 16.9](/topics-and-advance-readings/Legalizing-Identity-Protocols-United-Nations.md) 
-* [Personal Levels of Assurance (PLOA)](/topics-and-advance-readings/PLOA%20White%20Paper%20-%20v1.01.pdf) - An AT&T Whitepaper on Assurance - by J. Oliver Glasgow and Jeff Dogen, Kennie Kwong, David Chen, Johannes Jaskolski, Kevin Castellow, Dan Druta
-* [Clues](/topics-and-advance-readings/clues.md) - something that serves to guide or direct in the solution of a problem or mystery. by Nicola Greco
-
+* [Personal Levels of Assurance (PLOA)](/topics-and-advance-readings/PLOA%20White%20Paper%20-%20v1.01.pdf) — by J. Oliver Glasgow and Jeff Dogen, Kennie Kwong, David Chen, Johannes Jaskolski, Kevin Castellow, Dan Druta — An AT&T Whitepaper on Assurance 
+* [Clues](/topics-and-advance-readings/clues.md) — by Nicola Greco
+— something that serves to guide or direct in the solution of a problem or mystery. 
 
 
 
