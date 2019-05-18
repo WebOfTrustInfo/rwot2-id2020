@@ -23,27 +23,27 @@ The topic papers submitted are:
 * [The Path to Self-Sovereign Identity](/topics-and-advance-readings/the-path-to-self-sovereign-identity.md) — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * [Distibuted Identity Management - Verifiable Claims Exchange Via Agents](/topics-and-advance-readings/DistibutedIdentityManagement-VerifiableClaimsExchangeViaAgents.pdf) — by Gary Zimmerman
 * [Blockstack Rules and Support for Multiple Blockchains](/topics-and-advance-readings/blockstack-rules-and-multiple-blockchains.md) — by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@blockstack.com\>
-* [Plurality of Provenance in Distributed Identity](/topics-and-advance-readings/Plurality%20of%20Provenance%20in%20Distributed%20Identity.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
-* [Identity is a Phenomenon, Not a Property](/topics-and-advance-readings/Identity%20is%20a%20Phenomenon%20Not%20a%20Property.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
+* [Plurality of Provenance in Distributed Identity](/topics-and-advance-readings/Plurality-of-Provenance-in-Distributed-Identity.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
+* [Identity is a Phenomenon, Not a Property](/topics-and-advance-readings/Identity-is-a-Phenomenon-Not-a-Property.Andrieu.2016.pdf) — by Joe Andrieu \<[joe@joeandrieu.com](mailto:joe@joeandrieu.com)\>
 * [Dex: Deterministic Predicate Expressions for Smarter Signatures](/topics-and-advance-readings/DexPredicatesForSmarterSigs.md) — by Peter Todd
 * [Scaling a BFT Consensus Protocol for Identity](/topics-and-advance-readings/scaling-a-bft-consensus-protocol-for-identity.md) — by Jason Law & Lovesh Harchandani
 * [XDI Graphs in IPFS](/topics-and-advance-readings/XDI-Graphs-in-IPFS.md) — by Markus Sabadello
-* [Replace Blockchain with DLT (Distributed Ledger Technology)](/topics-and-advance-readings/Erik%20Anderson-USE%20CASE%20story.md) — by Erik Anderson
+* [Replace Blockchain with DLT (Distributed Ledger Technology)](/topics-and-advance-readings/Erik-Anderson-USE-CASE-story.md) — by Erik Anderson
 * [Blockchain For Capital Markets](/topics-and-advance-readings/Blockchain_for_capital_markets.pdf) — by Erik Anderson
 * [Identity Management IdSec](/topics-and-advance-readings/PM_15_026_FIN2_IdSEC_160513.pdf) — by Erik Anderson
 * [Trust-i-ness](/topics-and-advance-readings/Trust-i-ness.md) — by Kaliya "Identity Woman"
-* [ID2020 - Self-Sovereign Identity](/topics-and-advance-readings/Rebooting%20Web%20of%20Trust%20Position%20MindMap%20-%20pre-reading%20DRAFT%20ID2020%20Summit%202016.pdf) — by Patrick Deegan
-* [Identity and decentralised Communication](https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/Identity%20and%20decentralised%20communications.md) — by Harsh Patel
+* [ID2020 - Self-Sovereign Identity](/topics-and-advance-readings/Rebooting-Web-of-Trust-Position-MindMap-pre-reading-DRAFT-ID2020-Summit-2016.pdf) — by Patrick Deegan
+* [Identity and decentralised Communication](https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/Identity-and-decentralised-communications.md) — by Harsh Patel
 
 ---
 
 * [Chime National Patent ID Challenge](/topics-and-advance-readings/CHIMENationalPatientIDChallenge.pdf)
 * [Usability and Multiplicity in Global Identity Management](/topics-and-advance-readings/Crocker-ID-Usability-Multiplicity.md) — by D. Crocker ~ \<[dcrocker@bbiw.net](mailto:dcrocker@bbiw.net)\>
 * [Decentralized Identity Satoshi Style](/topics-and-advance-readings/Decentralized-Identity-Satoshi-Style) - by Darrell Duane - \<[darrell@idi.io](mailto:darrell@idi.io)\>
-* [Declaration of Identity - Printed.pdf](https://github.com/infominer33/rwot2-id2020/blob/master/topics-and-advance-readings/Declaration%20of%20Identity%20-%20Printed.pdf)
+* [Declaration of Identity - Printed.pdf](https://github.com/infominer33/rwot2-id2020/blob/master/topics-and-advance-readings/Declaration-of-Identity-Printed.pdf)
 * [Identities for Moving Things](/topics-and-advance-readings/IdentitiesForMovingThings.md) - by Daniel Ford - \<[dan@keoja.com](mailto:dan@keoja.com)\>
 * [Legalizing Identity Protocols for the United Nations 16.9](/topics-and-advance-readings/Legalizing-Identity-Protocols-United-Nations.md) 
-* [Personal Levels of Assurance (PLOA)](/topics-and-advance-readings/PLOA%20White%20Paper%20-%20v1.01.pdf) — by J. Oliver Glasgow and Jeff Dogen, Kennie Kwong, David Chen, Johannes Jaskolski, Kevin Castellow, Dan Druta — An AT&T Whitepaper on Assurance 
+* [Personal Levels of Assurance (PLOA)](/topics-and-advance-readings/PLOA-White-Paper-v1.01.pdf) — by J. Oliver Glasgow and Jeff Dogen, Kennie Kwong, David Chen, Johannes Jaskolski, Kevin Castellow, Dan Druta — An AT&T Whitepaper on Assurance 
 * [Clues](/topics-and-advance-readings/clues.md) — by Nicola Greco
 — something that serves to guide or direct in the solution of a problem or mystery. 
 
