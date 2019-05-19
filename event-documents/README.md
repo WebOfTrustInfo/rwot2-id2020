@@ -21,7 +21,7 @@ permalink: rwot2-id2020/event-documents/
 * [plenaries/9-finale.md](plenaries/9-finale.md)
 
 
-# Photos
+## Photos
 
 * [photos](photos)
 
