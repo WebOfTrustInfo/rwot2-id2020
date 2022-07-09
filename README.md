@@ -1,6 +1,6 @@
 ## Rebooting the Web of Trust II: ID2020 (May 2016)
 
-This repository contains documents related to RWOT2, the second Rebooting the Web of Trust design workshop, which ran in San Francisco, CA, on May 21st & 22nd, 2016. It was run in conjunction with the UN ID2020 Summit on Identity, which occurred at the UN in New York on May 20th, 2016. The goal of the workshop was to generate five technical white papers and/or proposals on topics decided by the group that would have the greatest impact on the future.
+This repository contains documents related to RWOT2, the second Rebooting the Web of Trust design workshop, which ran in New York, NY, on May 21st & 22nd, 2016. It was run in conjunction with the UN ID2020 Summit on Identity, which occurred at the UN in New York on May 20th, 2016. The goal of the workshop was to generate five technical white papers and/or proposals on topics decided by the group that would have the greatest impact on the future.
 
 _Please see the [Web of Trust Info website](http://www.weboftrust.info/) for more information about our community, including upcoming events._
 
